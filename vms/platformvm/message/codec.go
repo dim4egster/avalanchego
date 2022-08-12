@@ -4,10 +4,10 @@
 package message
 
 import (
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/dim4egster/avalanchego/codec"
+	"github.com/dim4egster/avalanchego/codec/linearcodec"
+	"github.com/dim4egster/avalanchego/utils/units"
+	"github.com/dim4egster/avalanchego/utils/wrappers"
 )
 
 const (

@@ -22,9 +22,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/avalanchego/utils"
+	"github.com/dim4egster/avalanchego/utils/logging"
 )
 
 const (

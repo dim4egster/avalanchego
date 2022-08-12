@@ -12,20 +12,20 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/avalanchego/vms/proposervm/state"
+	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/avalanchego/database/manager"
+	"github.com/dim4egster/avalanchego/database/prefixdb"
+	"github.com/dim4egster/avalanchego/database/versiondb"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/avalanchego/snow/choices"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
+	"github.com/dim4egster/avalanchego/snow/engine/common"
+	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
+	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/avalanchego/vms/proposervm/state"
 
-	statelessblock "github.com/ava-labs/avalanchego/vms/proposervm/block"
+	statelessblock "github.com/dim4egster/avalanchego/vms/proposervm/block"
 )
 
 func stopHeightReindexing(t *testing.T, coreVM *fullVM, dbMan manager.Manager) {

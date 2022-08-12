@@ -17,14 +17,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/ips"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/message"
+	"github.com/dim4egster/avalanchego/utils"
+	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/avalanchego/utils/json"
+	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/avalanchego/version"
 )
 
 var (

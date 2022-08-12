@@ -4,8 +4,8 @@
 package atomic
 
 import (
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
+	"github.com/dim4egster/avalanchego/codec"
+	"github.com/dim4egster/avalanchego/codec/linearcodec"
 )
 
 const codecVersion = 0

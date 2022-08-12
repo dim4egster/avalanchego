@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/dim4egster/avalanchego/cache"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow/choices"
+	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
+	"github.com/dim4egster/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/dim4egster/avalanchego/utils/formatting"
+	"github.com/dim4egster/avalanchego/utils/hashing"
 )
 
 var (

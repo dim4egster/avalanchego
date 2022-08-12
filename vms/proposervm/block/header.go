@@ -4,7 +4,7 @@
 package block
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/ids"
 )
 
 type Header interface {

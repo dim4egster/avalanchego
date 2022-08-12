@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/sampler"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/utils/formatting"
+	"github.com/dim4egster/avalanchego/utils/sampler"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/dim4egster/avalanchego/utils/math"
 )
 
 const (

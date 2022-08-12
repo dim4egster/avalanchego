@@ -11,13 +11,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/api/server"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block/mocks"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms"
+	"github.com/dim4egster/avalanchego/api/server"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow/engine/common"
+	"github.com/dim4egster/avalanchego/snow/engine/snowman/block/mocks"
+	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/avalanchego/vms"
 )
 
 var id = ids.GenerateTestID()

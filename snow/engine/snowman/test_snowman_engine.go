@@ -6,9 +6,9 @@ package snowman
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
+	"github.com/dim4egster/avalanchego/snow/engine/common"
 )
 
 var (

@@ -9,14 +9,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/vms/platformvm/reward"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/utils/crypto"
+	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
+	"github.com/dim4egster/avalanchego/vms/platformvm/state"
+	"github.com/dim4egster/avalanchego/vms/platformvm/status"
+	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
 )
 
 func TestAddDelegatorTxExecute(t *testing.T) {

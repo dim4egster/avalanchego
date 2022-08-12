@@ -9,19 +9,19 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/platformvm/fx"
-	"github.com/ava-labs/avalanchego/vms/platformvm/stakeable"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/avalanchego/utils/crypto"
+	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/avalanchego/utils/math"
+	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/avalanchego/vms/components/avax"
+	"github.com/dim4egster/avalanchego/vms/components/verify"
+	"github.com/dim4egster/avalanchego/vms/platformvm/fx"
+	"github.com/dim4egster/avalanchego/vms/platformvm/stakeable"
+	"github.com/dim4egster/avalanchego/vms/platformvm/state"
+	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
 )
 
 var (
@@ -79,9 +79,9 @@ type Spender interface {
 		fee uint64,
 		changeAddr ids.ShortID,
 	) (
-		[]*avax.TransferableInput, // inputs
-		[]*avax.TransferableOutput, // returnedOutputs
-		[]*avax.TransferableOutput, // stakedOutputs
+		[]*avax.TransferableInput,        // inputs
+		[]*avax.TransferableOutput,       // returnedOutputs
+		[]*avax.TransferableOutput,       // stakedOutputs
 		[][]*crypto.PrivateKeySECP256K1R, // signers
 		error,
 	)
@@ -93,7 +93,7 @@ type Spender interface {
 		subnetID ids.ID,
 		keys []*crypto.PrivateKeySECP256K1R,
 	) (
-		verify.Verifiable, // Input that names owners
+		verify.Verifiable,              // Input that names owners
 		[]*crypto.PrivateKeySECP256K1R, // Keys that prove ownership
 		error,
 	)
@@ -172,9 +172,9 @@ func (h *handler) Spend(
 	fee uint64,
 	changeAddr ids.ShortID,
 ) (
-	[]*avax.TransferableInput, // inputs
-	[]*avax.TransferableOutput, // returnedOutputs
-	[]*avax.TransferableOutput, // stakedOutputs
+	[]*avax.TransferableInput,        // inputs
+	[]*avax.TransferableOutput,       // returnedOutputs
+	[]*avax.TransferableOutput,       // stakedOutputs
 	[][]*crypto.PrivateKeySECP256K1R, // signers
 	error,
 ) {
@@ -413,7 +413,7 @@ func (h *handler) Authorize(
 	subnetID ids.ID,
 	keys []*crypto.PrivateKeySECP256K1R,
 ) (
-	verify.Verifiable, // Input that names owners
+	verify.Verifiable,              // Input that names owners
 	[]*crypto.PrivateKeySECP256K1R, // Keys that prove ownership
 	error,
 ) {

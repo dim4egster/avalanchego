@@ -13,14 +13,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block/mocks"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/dim4egster/avalanchego/database/manager"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/avalanchego/snow/choices"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
+	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
+	"github.com/dim4egster/avalanchego/snow/engine/snowman/block/mocks"
+	"github.com/dim4egster/avalanchego/version"
 )
 
 var (

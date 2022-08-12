@@ -8,12 +8,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/avalanchego/codec"
+	"github.com/dim4egster/avalanchego/codec/linearcodec"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/vms/components/avax"
+	"github.com/dim4egster/avalanchego/vms/components/verify"
+	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
 )
 
 func TestInitialStateVerifySerialization(t *testing.T) {

@@ -6,8 +6,8 @@ package poll
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/utils/formatting"
 )
 
 // Set is a collection of polls

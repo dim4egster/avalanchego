@@ -10,11 +10,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/linkedhashmap"
-	"github.com/ava-labs/avalanchego/utils/math/meter"
-	"github.com/ava-labs/avalanchego/utils/resource"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/utils/linkedhashmap"
+	"github.com/dim4egster/avalanchego/utils/math/meter"
+	"github.com/dim4egster/avalanchego/utils/resource"
+	"github.com/dim4egster/avalanchego/utils/wrappers"
 )
 
 const epsilon = 1e-9

@@ -6,10 +6,10 @@ package common
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/api/health"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/dim4egster/avalanchego/api/health"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/avalanchego/snow/validators"
 )
 
 // Engine describes the standard interface of a consensus engine

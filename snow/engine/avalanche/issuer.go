@@ -6,10 +6,10 @@ package avalanche
 import (
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
+	"github.com/dim4egster/avalanchego/snow/engine/common"
 )
 
 // issuer issues [vtx] into consensus after its dependencies are met.

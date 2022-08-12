@@ -10,7 +10,7 @@ package registry
 import (
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
+	ids "github.com/dim4egster/avalanchego/ids"
 	gomock "github.com/golang/mock/gomock"
 )
 

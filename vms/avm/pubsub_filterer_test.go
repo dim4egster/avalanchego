@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/pubsub"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/pubsub"
+	"github.com/dim4egster/avalanchego/vms/avm/txs"
+	"github.com/dim4egster/avalanchego/vms/components/avax"
+	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
 )
 
 type mockFilter struct {

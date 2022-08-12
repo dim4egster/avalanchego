@@ -11,16 +11,16 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/dim4egster/avalanchego/codec"
+	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/avalanchego/database/prefixdb"
+	"github.com/dim4egster/avalanchego/database/versiondb"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/avalanchego/utils/math"
+	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/avalanchego/utils/wrappers"
 )
 
 const (

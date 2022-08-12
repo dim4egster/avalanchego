@@ -10,19 +10,19 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network"
-	"github.com/ava-labs/avalanchego/network/peer"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/networking/benchlist"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/ips"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/avalanchego/vms"
+	"github.com/dim4egster/avalanchego/chains"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/network"
+	"github.com/dim4egster/avalanchego/network/peer"
+	"github.com/dim4egster/avalanchego/snow/engine/common"
+	"github.com/dim4egster/avalanchego/snow/networking/benchlist"
+	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/avalanchego/utils/json"
+	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/avalanchego/vms"
 )
 
 var (

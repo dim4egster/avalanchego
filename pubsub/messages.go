@@ -4,9 +4,9 @@
 package pubsub
 
 import (
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/json"
+	"github.com/dim4egster/avalanchego/api"
+	"github.com/dim4egster/avalanchego/utils/formatting/address"
+	"github.com/dim4egster/avalanchego/utils/json"
 )
 
 // NewBloom command for a new bloom filter

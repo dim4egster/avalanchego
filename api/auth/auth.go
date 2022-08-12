@@ -18,10 +18,10 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/password"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/avalanchego/utils/json"
+	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/avalanchego/utils/password"
+	"github.com/dim4egster/avalanchego/utils/timer/mockable"
 )
 
 const (

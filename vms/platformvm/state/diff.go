@@ -7,11 +7,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/platformvm/status"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/vms/components/avax"
+	"github.com/dim4egster/avalanchego/vms/platformvm/status"
+	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
 )
 
 var (

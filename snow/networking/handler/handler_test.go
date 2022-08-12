@@ -12,14 +12,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/math/meter"
-	"github.com/ava-labs/avalanchego/utils/resource"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/message"
+	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/avalanchego/snow/engine/common"
+	"github.com/dim4egster/avalanchego/snow/networking/tracker"
+	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/avalanchego/utils/math/meter"
+	"github.com/dim4egster/avalanchego/utils/resource"
 )
 
 func TestHandlerDropsTimedOutMessages(t *testing.T) {

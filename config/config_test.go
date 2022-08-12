@@ -17,8 +17,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/chains"
+	"github.com/dim4egster/avalanchego/ids"
 )
 
 func TestGetChainConfigsFromFiles(t *testing.T) {

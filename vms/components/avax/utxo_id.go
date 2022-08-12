@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/utils"
+	"github.com/dim4egster/avalanchego/vms/components/verify"
 )
 
 var (

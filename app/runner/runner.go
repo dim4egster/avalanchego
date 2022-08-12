@@ -12,12 +12,12 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/ava-labs/avalanchego/app"
-	"github.com/ava-labs/avalanchego/app/process"
-	"github.com/ava-labs/avalanchego/node"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/avalanchego/app"
+	"github.com/dim4egster/avalanchego/app/process"
+	"github.com/dim4egster/avalanchego/node"
+	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
 
-	appplugin "github.com/ava-labs/avalanchego/app/plugin"
+	appplugin "github.com/dim4egster/avalanchego/app/plugin"
 )
 
 // Run an AvalancheGo node.

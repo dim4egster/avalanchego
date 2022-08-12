@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/staking"
-	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/dim4egster/avalanchego/staking"
+	"github.com/dim4egster/avalanchego/utils/ips"
 )
 
 const (

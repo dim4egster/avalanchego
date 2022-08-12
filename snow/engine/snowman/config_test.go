@@ -4,10 +4,10 @@
 package snowman
 
 import (
-	"github.com/ava-labs/avalanchego/snow/consensus/snowball"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowball"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
+	"github.com/dim4egster/avalanchego/snow/engine/common"
+	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
 )
 
 func DefaultConfigs() Config {

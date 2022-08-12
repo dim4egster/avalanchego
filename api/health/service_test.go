@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/dim4egster/avalanchego/utils/logging"
 )
 
 func TestServiceResponses(t *testing.T) {

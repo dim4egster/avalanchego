@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/dim4egster/avalanchego/api"
+	"github.com/dim4egster/avalanchego/database/manager"
+	"github.com/dim4egster/avalanchego/database/memdb"
+	"github.com/dim4egster/avalanchego/utils/formatting"
+	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/avalanchego/version"
 )
 
 type service struct {

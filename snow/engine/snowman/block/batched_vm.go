@@ -7,10 +7,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
+	"github.com/dim4egster/avalanchego/utils/wrappers"
 )
 
 var ErrRemoteVMNotImplemented = errors.New("vm does not implement RemoteVM interface")
@@ -20,9 +20,9 @@ var ErrRemoteVMNotImplemented = errors.New("vm does not implement RemoteVM inter
 // operations since calls over network can be duly batched
 type BatchedChainVM interface {
 	GetAncestors(
-		blkID ids.ID, // first requested block
-		maxBlocksNum int, // max number of blocks to be retrieved
-		maxBlocksSize int, // max cumulated byte size of retrieved blocks
+		blkID ids.ID,                        // first requested block
+		maxBlocksNum int,                    // max number of blocks to be retrieved
+		maxBlocksSize int,                   // max cumulated byte size of retrieved blocks
 		maxBlocksRetrivalTime time.Duration, // max duration of retrival operation
 	) ([][]byte, error)
 
@@ -30,10 +30,10 @@ type BatchedChainVM interface {
 }
 
 func GetAncestors(
-	vm Getter, // fetch blocks
-	blkID ids.ID, // first requested block
-	maxBlocksNum int, // max number of blocks to be retrieved
-	maxBlocksSize int, // max cumulated byte size of retrieved blocks
+	vm Getter,                           // fetch blocks
+	blkID ids.ID,                        // first requested block
+	maxBlocksNum int,                    // max number of blocks to be retrieved
+	maxBlocksSize int,                   // max cumulated byte size of retrieved blocks
 	maxBlocksRetrivalTime time.Duration, // max duration of retrival operation
 ) ([][]byte, error) {
 	// Try and batch GetBlock requests

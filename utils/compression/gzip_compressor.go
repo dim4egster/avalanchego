@@ -10,7 +10,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/dim4egster/avalanchego/utils"
 )
 
 var _ Compressor = &gzipCompressor{}

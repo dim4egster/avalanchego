@@ -4,12 +4,12 @@
 package executor
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/vms/platformvm/blocks"
-	"github.com/ava-labs/avalanchego/vms/platformvm/state"
-	"github.com/ava-labs/avalanchego/vms/platformvm/txs/mempool"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/avalanchego/utils"
+	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
+	"github.com/dim4egster/avalanchego/vms/platformvm/state"
+	"github.com/dim4egster/avalanchego/vms/platformvm/txs/mempool"
 )
 
 // Shared fields used by visitors.

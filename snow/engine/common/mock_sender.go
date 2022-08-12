@@ -6,8 +6,8 @@ package common
 import (
 	reflect "reflect"
 
-	ids "github.com/ava-labs/avalanchego/ids"
-	snow "github.com/ava-labs/avalanchego/snow"
+	ids "github.com/dim4egster/avalanchego/ids"
+	snow "github.com/dim4egster/avalanchego/snow"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -6,8 +6,8 @@ package uptime
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/avalanchego/ids"
 )
 
 var _ State = &TestState{}

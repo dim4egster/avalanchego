@@ -8,10 +8,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/utils/window"
-	"github.com/ava-labs/avalanchego/vms/platformvm/blocks"
-	"github.com/ava-labs/avalanchego/vms/platformvm/metrics"
+	"github.com/dim4egster/avalanchego/snow/choices"
+	"github.com/dim4egster/avalanchego/utils/window"
+	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
+	"github.com/dim4egster/avalanchego/vms/platformvm/metrics"
 )
 
 var _ blocks.Visitor = &acceptor{}

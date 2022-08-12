@@ -4,11 +4,11 @@
 package avm
 
 import (
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/avm/txs"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
+	"github.com/dim4egster/avalanchego/chains/atomic"
+	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/vms/avm/txs"
+	"github.com/dim4egster/avalanchego/vms/components/avax"
 )
 
 var _ txs.Visitor = &executeTx{}

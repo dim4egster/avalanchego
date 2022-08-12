@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/avalanchego/utils/timer/mockable"
 )
 
 const (

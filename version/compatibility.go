@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/avalanchego/utils/timer/mockable"
 )
 
 var (

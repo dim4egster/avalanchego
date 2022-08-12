@@ -4,8 +4,8 @@
 package metervm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
 )
 
 func (vm *blockVM) VerifyHeightIndex() error {

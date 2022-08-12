@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/platformvm/blocks"
+	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
 )
 
 var _ blocks.Visitor = &blockMetrics{}

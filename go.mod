@@ -1,4 +1,4 @@
-module github.com/ava-labs/avalanchego
+module github.com/dim4egster/avalanchego
 
 // Changes to the minimum golang version must also be replicated in
 // scripts/ansible/roles/golang_base/defaults/main.yml
@@ -13,10 +13,11 @@ require (
 	github.com/Microsoft/go-winio v0.5.2
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/ava-labs/avalanche-network-runner-sdk v0.1.0
-	github.com/ava-labs/coreth v0.8.15-rc.1
+	github.com/dim4egster/avalanchego v1.7.17
 	github.com/btcsuite/btcd v0.23.1
 	github.com/btcsuite/btcd/btcutil v1.1.1
 	github.com/decred/dcrd/dcrec/secp256k1/v3 v3.0.0-20200627015759-01fd2de07837
+	github.com/dim4egster/coreth v0.8.15-rc.1
 	github.com/golang-jwt/jwt v3.2.1+incompatible
 	github.com/golang/mock v1.6.0
 	github.com/google/btree v1.1.2
@@ -61,6 +62,7 @@ require (
 require (
 	github.com/VictoriaMetrics/fastcache v1.10.0 // indirect
 	github.com/aead/siphash v1.0.1 // indirect
+	github.com/ava-labs/coreth v0.8.15-rc.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect

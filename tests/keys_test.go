@@ -6,7 +6,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/crypto"
+	"github.com/dim4egster/avalanchego/utils/crypto"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -8,9 +8,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/utils/metric"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/dim4egster/avalanchego/message"
+	"github.com/dim4egster/avalanchego/utils/metric"
+	"github.com/dim4egster/avalanchego/utils/wrappers"
 )
 
 type metrics struct {

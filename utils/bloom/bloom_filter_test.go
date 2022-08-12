@@ -6,7 +6,7 @@ package bloom
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/dim4egster/avalanchego/utils/units"
 	"github.com/stretchr/testify/assert"
 )
 

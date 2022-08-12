@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/dim4egster/avalanchego/vms/components/verify"
 )
 
 func TestMintOutputVerifyNil(t *testing.T) {

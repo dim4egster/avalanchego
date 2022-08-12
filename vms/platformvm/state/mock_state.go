@@ -8,14 +8,14 @@ import (
 	reflect "reflect"
 	time "time"
 
-	database "github.com/ava-labs/avalanchego/database"
-	ids "github.com/ava-labs/avalanchego/ids"
-	choices "github.com/ava-labs/avalanchego/snow/choices"
-	validators "github.com/ava-labs/avalanchego/snow/validators"
-	avax "github.com/ava-labs/avalanchego/vms/components/avax"
-	blocks "github.com/ava-labs/avalanchego/vms/platformvm/blocks"
-	status "github.com/ava-labs/avalanchego/vms/platformvm/status"
-	txs "github.com/ava-labs/avalanchego/vms/platformvm/txs"
+	database "github.com/dim4egster/avalanchego/database"
+	ids "github.com/dim4egster/avalanchego/ids"
+	choices "github.com/dim4egster/avalanchego/snow/choices"
+	validators "github.com/dim4egster/avalanchego/snow/validators"
+	avax "github.com/dim4egster/avalanchego/vms/components/avax"
+	blocks "github.com/dim4egster/avalanchego/vms/platformvm/blocks"
+	status "github.com/dim4egster/avalanchego/vms/platformvm/status"
+	txs "github.com/dim4egster/avalanchego/vms/platformvm/txs"
 	gomock "github.com/golang/mock/gomock"
 )
 

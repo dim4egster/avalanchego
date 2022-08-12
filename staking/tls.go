@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/perms"
+	"github.com/dim4egster/avalanchego/utils/perms"
 )
 
 var errDuplicateExtension = errors.New("duplicate certificate extension")

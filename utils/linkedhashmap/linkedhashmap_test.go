@@ -6,7 +6,7 @@ package linkedhashmap
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/ids"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,10 +13,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/staking"
-	"github.com/ava-labs/avalanchego/utils/ips"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/avalanchego/staking"
+	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/avalanchego/utils/units"
 )
 
 func TestCodecPackInvalidOp(t *testing.T) {
