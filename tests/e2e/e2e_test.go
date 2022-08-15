@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	runner_sdk "github.com/dim4egster/avalanche-network-runner-sdk"
+	runner_sdk "github.com/ava-labs/avalanche-network-runner-sdk"
 	"github.com/dim4egster/avalanchego/tests"
 	"github.com/dim4egster/avalanchego/tests/e2e"
 

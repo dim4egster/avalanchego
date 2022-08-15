@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	runner_sdk "github.com/dim4egster/avalanche-network-runner-sdk"
+	runner_sdk "github.com/ava-labs/avalanche-network-runner-sdk"
 	"github.com/dim4egster/avalanchego/ids"
 	"github.com/dim4egster/avalanchego/utils/crypto"
 	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
