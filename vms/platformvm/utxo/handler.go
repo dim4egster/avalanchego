@@ -79,9 +79,9 @@ type Spender interface {
 		fee uint64,
 		changeAddr ids.ShortID,
 	) (
-		[]*avax.TransferableInput,        // inputs
-		[]*avax.TransferableOutput,       // returnedOutputs
-		[]*avax.TransferableOutput,       // stakedOutputs
+		[]*avax.TransferableInput, // inputs
+		[]*avax.TransferableOutput, // returnedOutputs
+		[]*avax.TransferableOutput, // stakedOutputs
 		[][]*crypto.PrivateKeySECP256K1R, // signers
 		error,
 	)
@@ -93,7 +93,7 @@ type Spender interface {
 		subnetID ids.ID,
 		keys []*crypto.PrivateKeySECP256K1R,
 	) (
-		verify.Verifiable,              // Input that names owners
+		verify.Verifiable, // Input that names owners
 		[]*crypto.PrivateKeySECP256K1R, // Keys that prove ownership
 		error,
 	)
@@ -172,9 +172,9 @@ func (h *handler) Spend(
 	fee uint64,
 	changeAddr ids.ShortID,
 ) (
-	[]*avax.TransferableInput,        // inputs
-	[]*avax.TransferableOutput,       // returnedOutputs
-	[]*avax.TransferableOutput,       // stakedOutputs
+	[]*avax.TransferableInput, // inputs
+	[]*avax.TransferableOutput, // returnedOutputs
+	[]*avax.TransferableOutput, // stakedOutputs
 	[][]*crypto.PrivateKeySECP256K1R, // signers
 	error,
 ) {
@@ -413,7 +413,7 @@ func (h *handler) Authorize(
 	subnetID ids.ID,
 	keys []*crypto.PrivateKeySECP256K1R,
 ) (
-	verify.Verifiable,              // Input that names owners
+	verify.Verifiable, // Input that names owners
 	[]*crypto.PrivateKeySECP256K1R, // Keys that prove ownership
 	error,
 ) {
