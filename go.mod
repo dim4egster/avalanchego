@@ -9,7 +9,7 @@ require (
 	github.com/btcsuite/btcd v0.23.1
 	github.com/btcsuite/btcd/btcutil v1.1.2
 	github.com/decred/dcrd/dcrec/secp256k1/v3 v3.0.0
-	github.com/dim4egster/coreth v0.8.15
+	github.com/dim4egster/coreth v0.8.16
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/mock v1.6.0
 	github.com/google/btree v1.1.2

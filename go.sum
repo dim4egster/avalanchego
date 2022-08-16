@@ -127,8 +127,6 @@ github.com/decred/dcrd/lru v1.0.0/go.mod h1:mxKOwFd7lFjN2GZYsiz/ecgqR6kkYAl+0pz0
 github.com/decred/dcrd/lru v1.1.1 h1:kWFDaW0OWx6AD6Ki342c+JPmHbiVdE6rK81pT3fuo/Y=
 github.com/decred/dcrd/lru v1.1.1/go.mod h1:mxKOwFd7lFjN2GZYsiz/ecgqR6kkYAl+0pz0tEMk218=
 github.com/dgryski/go-sip13 v0.0.0-20181026042036-e10d5fee7954/go.mod h1:vAd38F8PWV+bWy6jNmig1y/TA+kYO4g3RSRF0IAv0no=
-github.com/dim4egster/coreth v0.8.15 h1:d3VUYIm2LFvq+b2gfhYzQbnIcxmz90H5TLXBlA1U15M=
-github.com/dim4egster/coreth v0.8.15/go.mod h1:Ahu39kcYLzg6udZv72VU1QJdDRyIXh7E+yYnnb8Ijio=
 github.com/dim4egster/coreth v0.8.16 h1:YGn5rUYW/R3x4tq9epFL0hhEk+DZClt3ABzpJitAsPI=
 github.com/dim4egster/coreth v0.8.16/go.mod h1:fs98nj30hAWtQiZY+hLI3MUNl9srs+ajQxwrDTBqdMs=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
