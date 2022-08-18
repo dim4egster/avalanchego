@@ -4,7 +4,7 @@
 		{
 			"ethAddr": "0xAc3448af2B124d70F5A93aDa08B3EE69c5C9eA0B",
 			"avaxAddr": "X-avax1wluea4c7dxe22tz6xgmgwpehn3g9gz0a66u6w2",
-			"initialAmount": 0,
+			"initialAmount": 300000000000000000,
 			"unlockSchedule": [
 				{
 					"amount": 300000000000000000
