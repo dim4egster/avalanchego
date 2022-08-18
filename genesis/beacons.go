@@ -33,7 +33,7 @@ func getNodeIDs(networkID uint32) []string {
 			"NodeID-7fsWLv7iCMEbobu2AjdwCbnwMtM2ahSWW",
 			"NodeID-LPDaqcLiC77vdHz6TDsjUS4T6DYAEFhaB",
 			"NodeID-HKR2zonLiAGt2PqeRzfyLSrsJyEk9HVDV",
-			"NodeID-Drv1Qh7iJvW3zGBBeRnYfCzk56VCRM2GQ",
+			"NodeID-JJKqoEaA8KStxJYm8GZ8qexz27kbya9Fm",
 		}
 	case constants.FujiID:
 		return []string{
