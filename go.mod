@@ -1,4 +1,4 @@
-module github.com/dim4egster/qmall
+module github.com/dim4egster/qmallgo
 
 go 1.18
 
@@ -9,7 +9,6 @@ require (
 	github.com/btcsuite/btcd v0.23.1
 	github.com/btcsuite/btcd/btcutil v1.1.2
 	github.com/decred/dcrd/dcrec/secp256k1/v3 v3.0.0
-	github.com/dim4egster/qmallgo v1.9.0
 	github.com/dim4egster/coreth v0.10.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/mock v1.6.0
@@ -68,6 +67,7 @@ require (
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 	github.com/decred/dcrd/lru v1.1.1 // indirect
+	github.com/dim4egster/avalanchego v1.9.0 // indirect
 	github.com/ethereum/go-ethereum v1.10.25 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fjl/memsize v0.0.1 // indirect
