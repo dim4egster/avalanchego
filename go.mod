@@ -15,7 +15,7 @@ require (
 	github.com/btcsuite/btcd v0.23.1
 	github.com/btcsuite/btcd/btcutil v1.1.2
 	github.com/decred/dcrd/dcrec/secp256k1/v3 v3.0.0
-	github.com/dim4egster/coreth v0.8.17
+	github.com/dim4egster/coreth v0.10.0
 	github.com/golang-jwt/jwt v3.2.1+incompatible
 	github.com/golang/mock v1.6.0
 	github.com/google/btree v1.1.2
@@ -73,7 +73,7 @@ require (
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 	github.com/decred/dcrd/lru v1.1.1 // indirect
-	github.com/ethereum/go-ethereum v1.10.23 // indirect
+	github.com/ethereum/go-ethereum v1.10.25 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fjl/memsize v0.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
@@ -103,11 +103,9 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.1 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
-	github.com/prometheus/tsdb v0.10.0 // indirect
 	github.com/rjeczalik/notify v0.9.2 // indirect
 	github.com/spf13/afero v1.8.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
