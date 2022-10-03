@@ -31,7 +31,7 @@ If you plan to build AvalancheGo from source, you will also need the following s
 Clone the AvalancheGo repository:
 
 ```sh
-git clone git@github.com:ava-labs/avalanchego.git
+git clone git@github.com:dim4egster/avalanchego.git
 cd avalanchego
 ```
 
@@ -88,7 +88,7 @@ sudo apt install avalanchego
 
 ### Binary Install
 
-Download the [latest build](https://github.com/ava-labs/avalanchego/releases/latest) for your operating system and architecture.
+Download the [latest build](https://github.com/dim4egster/avalanchego/releases/latest) for your operating system and architecture.
 
 The Avalanche binary to be executed is named `avalanchego`.
 
@@ -200,10 +200,10 @@ Going forward, AvalancheGo will use [gomock](https://github.com/golang/mock) for
 Example usage:
 
 ```sh
-mockgen -destination vms/platformvm/state/mock_diff.go -package state github.com/ava-labs/avalanchego/vms/platformvm/state Diff
+mockgen -destination vms/platformvm/state/mock_diff.go -package state github.com/dim4egster/avalanchego/vms/platformvm/state Diff
 ```
 
-This makes a mock implementation of the `Diff` interface from `github.com/ava-labs/avalanchego/vms/platformvm/state`and puts it at `vms/platformvm/state/mock_diff.go`. The struct implementing the mock will be in the `state` package.
+This makes a mock implementation of the `Diff` interface from `github.com/dim4egster/avalanchego/vms/platformvm/state`and puts it at `vms/platformvm/state/mock_diff.go`. The struct implementing the mock will be in the `state` package.
 
 See `gomock` documentation for more information.
 

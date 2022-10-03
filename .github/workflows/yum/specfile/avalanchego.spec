@@ -4,7 +4,7 @@ Name:           avalanchego
 Version:        %{version}
 Release:        %{release}
 Summary:        The Avalanche platform binaries
-URL:            https://github.com/ava-labs/%{name}
+URL:            https://github.com/dim4egster/%{name}
 License:        BSD-3
 AutoReqProv:    no
 

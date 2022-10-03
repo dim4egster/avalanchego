@@ -25,13 +25,13 @@ fi
 
 #################################
 # download avalanchego
-# https://github.com/ava-labs/avalanchego/releases
+# https://github.com/dim4egster/avalanchego/releases
 GOARCH=$(go env GOARCH)
 GOOS=$(go env GOOS)
-DOWNLOAD_URL=https://github.com/ava-labs/avalanchego/releases/download/v${VERSION}/avalanchego-linux-${GOARCH}-v${VERSION}.tar.gz
+DOWNLOAD_URL=https://github.com/dim4egster/avalanchego/releases/download/v${VERSION}/avalanchego-linux-${GOARCH}-v${VERSION}.tar.gz
 DOWNLOAD_PATH=/tmp/avalanchego.tar.gz
 if [[ ${GOOS} == "darwin" ]]; then
-  DOWNLOAD_URL=https://github.com/ava-labs/avalanchego/releases/download/v${VERSION}/avalanchego-macos-v${VERSION}.zip
+  DOWNLOAD_URL=https://github.com/dim4egster/avalanchego/releases/download/v${VERSION}/avalanchego-macos-v${VERSION}.zip
   DOWNLOAD_PATH=/tmp/avalanchego.zip
 fi
 
@@ -53,12 +53,12 @@ find /tmp/avalanchego-v${VERSION}
 
 #################################
 # download avalanche-network-runner
-# https://github.com/ava-labs/avalanche-network-runner
+# https://github.com/dim4egster/avalanche-network-runner
 NETWORK_RUNNER_VERSION=1.1.0
 DOWNLOAD_PATH=/tmp/avalanche-network-runner.tar.gz
-DOWNLOAD_URL=https://github.com/ava-labs/avalanche-network-runner/releases/download/v${NETWORK_RUNNER_VERSION}/avalanche-network-runner_${NETWORK_RUNNER_VERSION}_linux_amd64.tar.gz
+DOWNLOAD_URL=https://github.com/dim4egster/avalanche-network-runner/releases/download/v${NETWORK_RUNNER_VERSION}/avalanche-network-runner_${NETWORK_RUNNER_VERSION}_linux_amd64.tar.gz
 if [[ ${GOOS} == "darwin" ]]; then
-  DOWNLOAD_URL=https://github.com/ava-labs/avalanche-network-runner/releases/download/v${NETWORK_RUNNER_VERSION}/avalanche-network-runner_${NETWORK_RUNNER_VERSION}_darwin_amd64.tar.gz
+  DOWNLOAD_URL=https://github.com/dim4egster/avalanche-network-runner/releases/download/v${NETWORK_RUNNER_VERSION}/avalanche-network-runner_${NETWORK_RUNNER_VERSION}_darwin_amd64.tar.gz
 fi
 
 rm -f ${DOWNLOAD_PATH}

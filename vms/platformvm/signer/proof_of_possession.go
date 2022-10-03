@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/formatting"
+	"github.com/dim4egster/avalanchego/utils/crypto/bls"
+	"github.com/dim4egster/avalanchego/utils/formatting"
 )
 
 var (
