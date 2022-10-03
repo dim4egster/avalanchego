@@ -3,7 +3,7 @@
 
 package verify
 
-import "github.com/dim4egster/avalanchego/snow"
+import "github.com/dim4egster/qmallgo/snow"
 
 // Verifiable can be verified
 type Verifiable interface {

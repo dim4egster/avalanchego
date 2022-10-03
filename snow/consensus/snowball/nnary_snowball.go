@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 var _ NnarySnowball = &nnarySnowball{}

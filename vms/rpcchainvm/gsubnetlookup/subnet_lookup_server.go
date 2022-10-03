@@ -6,10 +6,10 @@ package gsubnetlookup
 import (
 	"context"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
 
-	subnetlookuppb "github.com/dim4egster/avalanchego/proto/pb/subnetlookup"
+	subnetlookuppb "github.com/dim4egster/qmallgo/proto/pb/subnetlookup"
 )
 
 var _ subnetlookuppb.SubnetLookupServer = &Server{}

@@ -4,7 +4,7 @@
 package common
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Subnet describes the standard interface of a subnet description

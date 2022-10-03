@@ -4,8 +4,8 @@
 package blocks
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 // CommonBlock contains fields and methods common to all blocks in this VM.

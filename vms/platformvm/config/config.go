@@ -6,14 +6,14 @@ package config
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/chains"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/uptime"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/chains"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/uptime"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/vms/platformvm/reward"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
 )
 
 // Struct collecting all foundational parameters of PlatformVM

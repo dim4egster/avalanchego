@@ -6,7 +6,7 @@ After=syslog.target network.target
 User=avalanche
 Type=simple
 Environment=HOME=/home/avalanche
-ExecStart=/usr/local/bin/avalanchego --config-file /etc/avalanchego/conf.json
+ExecStart=/usr/local/bin/qmallgo --config-file /etc/qmallgo/conf.json
 KillMode=process
 KillSignal=SIGINT
 TimeoutStopSec=90

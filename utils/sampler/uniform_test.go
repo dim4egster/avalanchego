@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/utils"
+	"github.com/dim4egster/qmallgo/utils"
 )
 
 var (

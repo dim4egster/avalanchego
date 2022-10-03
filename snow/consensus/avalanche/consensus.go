@@ -4,9 +4,9 @@
 package avalanche
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowstorm"
 )
 
 // TODO: Implement pruning of accepted decisions.

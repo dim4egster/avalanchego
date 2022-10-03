@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/utils/units"
+	"github.com/dim4egster/qmallgo/utils/units"
 )
 
 var (

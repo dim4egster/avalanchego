@@ -12,12 +12,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/database/leveldb"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/database/meterdb"
-	"github.com/dim4egster/avalanchego/database/prefixdb"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/database/leveldb"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/database/meterdb"
+	"github.com/dim4egster/qmallgo/database/prefixdb"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 func TestNewSingleLevelDB(t *testing.T) {

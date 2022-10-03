@@ -6,11 +6,11 @@ package executor
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
-	"github.com/dim4egster/avalanchego/vms/platformvm/state"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs/mempool"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/vms/platformvm/blocks"
+	"github.com/dim4egster/qmallgo/vms/platformvm/state"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs/mempool"
 )
 
 // Shared fields used by visitors.

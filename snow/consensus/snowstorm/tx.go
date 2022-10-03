@@ -4,8 +4,8 @@
 package snowstorm
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/choices"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/choices"
 )
 
 // Whitelister defines the interface for specifying whitelisted operations.

@@ -10,7 +10,7 @@ import (
 
 	"github.com/mr-tron/base58/base58"
 
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 const (

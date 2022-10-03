@@ -4,7 +4,7 @@
 package gsharedmemory
 
 import (
-	sharedmemorypb "github.com/dim4egster/avalanchego/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/dim4egster/qmallgo/proto/pb/sharedmemory"
 )
 
 type filteredBatch struct {

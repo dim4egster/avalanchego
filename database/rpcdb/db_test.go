@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/corruptabledb"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/corruptabledb"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 
-	rpcdbpb "github.com/dim4egster/avalanchego/proto/pb/rpcdb"
+	rpcdbpb "github.com/dim4egster/qmallgo/proto/pb/rpcdb"
 )
 
 const (

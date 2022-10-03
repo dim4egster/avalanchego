@@ -12,10 +12,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/linkedhashmap"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/metric"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/linkedhashmap"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/metric"
 )
 
 var (

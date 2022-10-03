@@ -8,9 +8,9 @@ import (
 	"crypto/rand"
 	"crypto/x509"
 
-	"github.com/dim4egster/avalanchego/utils/hashing"
-	"github.com/dim4egster/avalanchego/utils/ips"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/ips"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 // UnsignedIP is used for a validator to claim an IP. The [Timestamp] is used to

@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/constants"
 )
 
 var _ Creator = &creator{}

@@ -10,7 +10,7 @@ import (
 
 	"github.com/shirou/gopsutil/process"
 
-	"github.com/dim4egster/avalanchego/utils/storage"
+	"github.com/dim4egster/qmallgo/utils/storage"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 func TestPeers(t *testing.T) {

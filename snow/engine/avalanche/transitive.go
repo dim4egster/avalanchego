@@ -9,17 +9,17 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche/poll"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
-	"github.com/dim4egster/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/events"
-	"github.com/dim4egster/avalanchego/utils/sampler"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche/poll"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowstorm"
+	"github.com/dim4egster/qmallgo/snow/engine/avalanche/vertex"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/events"
+	"github.com/dim4egster/qmallgo/utils/sampler"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 var _ Engine = &Transitive{}

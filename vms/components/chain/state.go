@@ -8,12 +8,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/cache"
-	"github.com/dim4egster/avalanchego/cache/metercacher"
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/cache"
+	"github.com/dim4egster/qmallgo/cache/metercacher"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
 )
 
 // State implements an efficient caching layer used to wrap a VM

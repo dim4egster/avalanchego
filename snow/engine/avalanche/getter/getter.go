@@ -8,16 +8,16 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/message"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/metric"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/message"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/engine/avalanche/vertex"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/metric"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 // Get requests are always served, regardless node state (bootstrapping or normal operations).

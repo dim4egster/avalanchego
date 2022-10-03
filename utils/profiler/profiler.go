@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/dim4egster/avalanchego/utils/perms"
+	"github.com/dim4egster/qmallgo/utils/perms"
 )
 
 const (

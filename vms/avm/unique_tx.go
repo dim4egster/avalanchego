@@ -9,12 +9,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/cache"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
+	"github.com/dim4egster/qmallgo/cache"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowstorm"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
 )
 
 var (

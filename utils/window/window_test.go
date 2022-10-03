@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
 )
 
 const (

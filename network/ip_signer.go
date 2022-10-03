@@ -7,9 +7,9 @@ import (
 	"crypto"
 	"sync"
 
-	"github.com/dim4egster/avalanchego/network/peer"
-	"github.com/dim4egster/avalanchego/utils/ips"
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/network/peer"
+	"github.com/dim4egster/qmallgo/utils/ips"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
 )
 
 // ipSigner will return a signedIP for the current value of our dynamic IP.

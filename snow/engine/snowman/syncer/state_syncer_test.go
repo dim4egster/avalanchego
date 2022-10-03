@@ -11,16 +11,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/common/tracker"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/getter"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/common/tracker"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/getter"
+	"github.com/dim4egster/qmallgo/version"
 
-	safeMath "github.com/dim4egster/avalanchego/utils/math"
+	safeMath "github.com/dim4egster/qmallgo/utils/math"
 )
 
 func TestStateSyncerIsEnabledIfVMSupportsStateSyncing(t *testing.T) {

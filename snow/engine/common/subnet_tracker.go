@@ -4,7 +4,7 @@
 package common
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // SubnetTracker describes the interface for checking if a node is tracking a

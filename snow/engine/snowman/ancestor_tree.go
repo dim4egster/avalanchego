@@ -4,7 +4,7 @@
 package snowman
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 type AncestorTree interface {

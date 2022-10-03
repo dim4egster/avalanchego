@@ -4,7 +4,7 @@
 package nodb
 
 import (
-	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/qmallgo/database"
 )
 
 var (

@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/database/versiondb"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/database/versiondb"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 func TestHasIndexReset(t *testing.T) {

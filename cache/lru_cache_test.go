@@ -6,7 +6,7 @@ package cache
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 func TestLRU(t *testing.T) {

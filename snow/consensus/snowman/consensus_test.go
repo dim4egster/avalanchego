@@ -15,11 +15,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowball"
-	"github.com/dim4egster/avalanchego/utils/sampler"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowball"
+	"github.com/dim4egster/qmallgo/utils/sampler"
 )
 
 type testFunc func(*testing.T, Factory)

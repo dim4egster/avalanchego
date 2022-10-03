@@ -11,10 +11,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/cb58"
-	"github.com/dim4egster/avalanchego/utils/hashing"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/cb58"
+	"github.com/dim4egster/qmallgo/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 const nullStr = "null"

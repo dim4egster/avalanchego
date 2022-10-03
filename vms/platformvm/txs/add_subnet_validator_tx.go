@@ -7,11 +7,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
-	"github.com/dim4egster/avalanchego/vms/platformvm/validator"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/platformvm/validator"
 )
 
 var (

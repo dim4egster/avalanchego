@@ -13,10 +13,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 
-	aliasreaderpb "github.com/dim4egster/avalanchego/proto/pb/aliasreader"
+	aliasreaderpb "github.com/dim4egster/qmallgo/proto/pb/aliasreader"
 )
 
 const (

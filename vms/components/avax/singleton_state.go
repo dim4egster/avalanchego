@@ -4,7 +4,7 @@
 package avax
 
 import (
-	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/qmallgo/database"
 )
 
 const (

@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/getter"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/getter"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 const (

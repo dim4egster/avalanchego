@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 
-	safemath "github.com/dim4egster/avalanchego/utils/math"
+	safemath "github.com/dim4egster/qmallgo/utils/math"
 )
 
 // GetBalance returns the current balance of [addrs]

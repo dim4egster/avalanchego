@@ -9,13 +9,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/app"
-	"github.com/dim4egster/avalanchego/nat"
-	"github.com/dim4egster/avalanchego/node"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/perms"
-	"github.com/dim4egster/avalanchego/utils/ulimit"
+	"github.com/dim4egster/qmallgo/app"
+	"github.com/dim4egster/qmallgo/nat"
+	"github.com/dim4egster/qmallgo/node"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/perms"
+	"github.com/dim4egster/qmallgo/utils/ulimit"
 )
 
 const (

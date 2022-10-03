@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/codec/linearcodec"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/codec/linearcodec"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
 )
 
 func TestOutputAmount(t *testing.T) {

@@ -6,8 +6,8 @@ package tracker
 import (
 	"math"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/validators"
 )
 
 var _ Targeter = &targeter{}

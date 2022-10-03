@@ -13,22 +13,22 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowball"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
-	"github.com/dim4egster/avalanchego/snow/engine/avalanche/bootstrap"
-	"github.com/dim4egster/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/common/tracker"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowball"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowstorm"
+	"github.com/dim4egster/qmallgo/snow/engine/avalanche/bootstrap"
+	"github.com/dim4egster/qmallgo/snow/engine/avalanche/vertex"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/common/tracker"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
+	"github.com/dim4egster/qmallgo/version"
 
-	avagetter "github.com/dim4egster/avalanchego/snow/engine/avalanche/getter"
+	avagetter "github.com/dim4egster/qmallgo/snow/engine/avalanche/getter"
 )
 
 var (

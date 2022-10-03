@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
 )
 
 type Genesis struct {

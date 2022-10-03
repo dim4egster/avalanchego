@@ -4,9 +4,9 @@
 package proposervm
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	"github.com/dim4egster/avalanchego/vms/proposervm/indexer"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/vms/proposervm/indexer"
 )
 
 var _ indexer.BlockServer = &VM{}

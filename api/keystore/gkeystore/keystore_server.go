@@ -8,13 +8,13 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/dim4egster/avalanchego/api/keystore"
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/rpcdb"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/api/keystore"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/rpcdb"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 
-	keystorepb "github.com/dim4egster/avalanchego/proto/pb/keystore"
-	rpcdbpb "github.com/dim4egster/avalanchego/proto/pb/rpcdb"
+	keystorepb "github.com/dim4egster/qmallgo/proto/pb/keystore"
+	rpcdbpb "github.com/dim4egster/qmallgo/proto/pb/rpcdb"
 )
 
 var _ keystorepb.KeystoreServer = &Server{}

@@ -6,10 +6,10 @@ package message
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/ips"
 
-	p2ppb "github.com/dim4egster/avalanchego/proto/pb/p2p"
+	p2ppb "github.com/dim4egster/qmallgo/proto/pb/p2p"
 )
 
 var _ OutboundMsgBuilder = &outMsgBuilderWithProto{}

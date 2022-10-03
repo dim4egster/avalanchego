@@ -6,7 +6,7 @@ package cache
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // CacherTests is a list of all Cacher tests

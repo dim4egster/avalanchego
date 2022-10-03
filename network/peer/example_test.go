@@ -9,10 +9,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/dim4egster/avalanchego/message"
-	"github.com/dim4egster/avalanchego/snow/networking/router"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/qmallgo/message"
+	"github.com/dim4egster/qmallgo/snow/networking/router"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/ips"
 )
 
 func ExampleStartTestPeer() {

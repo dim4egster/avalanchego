@@ -8,9 +8,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/vms/proposervm/summary"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/vms/proposervm/summary"
 )
 
 func (vm *VM) StateSyncEnabled() (bool, error) {

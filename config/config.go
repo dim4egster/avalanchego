@@ -19,35 +19,35 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/dim4egster/avalanchego/app/runner"
-	"github.com/dim4egster/avalanchego/chains"
-	"github.com/dim4egster/avalanchego/genesis"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/ipcs"
-	"github.com/dim4egster/avalanchego/nat"
-	"github.com/dim4egster/avalanchego/network"
-	"github.com/dim4egster/avalanchego/network/dialer"
-	"github.com/dim4egster/avalanchego/network/throttling"
-	"github.com/dim4egster/avalanchego/node"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowball"
-	"github.com/dim4egster/avalanchego/snow/networking/benchlist"
-	"github.com/dim4egster/avalanchego/snow/networking/router"
-	"github.com/dim4egster/avalanchego/snow/networking/sender"
-	"github.com/dim4egster/avalanchego/snow/networking/tracker"
-	"github.com/dim4egster/avalanchego/staking"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/crypto/bls"
-	"github.com/dim4egster/avalanchego/utils/dynamicip"
-	"github.com/dim4egster/avalanchego/utils/ips"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/password"
-	"github.com/dim4egster/avalanchego/utils/perms"
-	"github.com/dim4egster/avalanchego/utils/profiler"
-	"github.com/dim4egster/avalanchego/utils/storage"
-	"github.com/dim4egster/avalanchego/utils/timer"
-	"github.com/dim4egster/avalanchego/vms"
-	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
+	"github.com/dim4egster/qmallgo/app/runner"
+	"github.com/dim4egster/qmallgo/chains"
+	"github.com/dim4egster/qmallgo/genesis"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/ipcs"
+	"github.com/dim4egster/qmallgo/nat"
+	"github.com/dim4egster/qmallgo/network"
+	"github.com/dim4egster/qmallgo/network/dialer"
+	"github.com/dim4egster/qmallgo/network/throttling"
+	"github.com/dim4egster/qmallgo/node"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowball"
+	"github.com/dim4egster/qmallgo/snow/networking/benchlist"
+	"github.com/dim4egster/qmallgo/snow/networking/router"
+	"github.com/dim4egster/qmallgo/snow/networking/sender"
+	"github.com/dim4egster/qmallgo/snow/networking/tracker"
+	"github.com/dim4egster/qmallgo/staking"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/crypto/bls"
+	"github.com/dim4egster/qmallgo/utils/dynamicip"
+	"github.com/dim4egster/qmallgo/utils/ips"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/password"
+	"github.com/dim4egster/qmallgo/utils/perms"
+	"github.com/dim4egster/qmallgo/utils/profiler"
+	"github.com/dim4egster/qmallgo/utils/storage"
+	"github.com/dim4egster/qmallgo/utils/timer"
+	"github.com/dim4egster/qmallgo/vms"
+	"github.com/dim4egster/qmallgo/vms/platformvm/reward"
 )
 
 const (
@@ -89,7 +89,7 @@ func GetRunnerConfig(v *viper.Viper) (runner.Config, error) {
 	// Build directory should have this structure:
 	//
 	// build
-	// ├── avalanchego (the binary from compiling the app directory)
+	// ├── qmallgo (the binary from compiling the app directory)
 	// └── plugins
 	//     └── evm
 	validBuildDir := func(dir string) bool {

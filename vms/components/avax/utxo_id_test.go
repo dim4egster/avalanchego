@@ -6,9 +6,9 @@ package avax
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/codec/linearcodec"
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/codec/linearcodec"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 func TestUTXOIDVerifyNil(t *testing.T) {

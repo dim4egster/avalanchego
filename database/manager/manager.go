@@ -12,16 +12,16 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/corruptabledb"
-	"github.com/dim4egster/avalanchego/database/leveldb"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/database/meterdb"
-	"github.com/dim4egster/avalanchego/database/prefixdb"
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/corruptabledb"
+	"github.com/dim4egster/qmallgo/database/leveldb"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/database/meterdb"
+	"github.com/dim4egster/qmallgo/database/prefixdb"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 var (

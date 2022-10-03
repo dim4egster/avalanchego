@@ -9,11 +9,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/ghttp/gresponsewriter"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/ghttp/gresponsewriter"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 
-	httppb "github.com/dim4egster/avalanchego/proto/pb/http"
-	responsewriterpb "github.com/dim4egster/avalanchego/proto/pb/http/responsewriter"
+	httppb "github.com/dim4egster/qmallgo/proto/pb/http"
+	responsewriterpb "github.com/dim4egster/qmallgo/proto/pb/http/responsewriter"
 )
 
 var _ http.Handler = &Client{}

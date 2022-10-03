@@ -4,8 +4,8 @@
 package vertex
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
 )
 
 // Storage defines the persistent storage that is required by the consensus

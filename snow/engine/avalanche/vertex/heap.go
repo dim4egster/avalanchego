@@ -6,8 +6,8 @@ package vertex
 import (
 	"container/heap"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
 )
 
 var (

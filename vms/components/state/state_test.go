@@ -6,10 +6,10 @@ package state
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/hashing"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 // toy example of a block, just used for testing

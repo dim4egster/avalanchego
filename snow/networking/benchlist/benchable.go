@@ -4,7 +4,7 @@
 package benchlist
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Benchable is notified when a validator is benched or unbenched from a given chain

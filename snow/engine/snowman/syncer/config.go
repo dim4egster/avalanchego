@@ -4,10 +4,10 @@
 package syncer
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/snow/validators"
 )
 
 type Config struct {

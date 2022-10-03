@@ -6,9 +6,9 @@ package info
 import (
 	"context"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/rpc"
-	"github.com/dim4egster/avalanchego/vms/platformvm/signer"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/rpc"
+	"github.com/dim4egster/qmallgo/vms/platformvm/signer"
 )
 
 var _ Client = &client{}

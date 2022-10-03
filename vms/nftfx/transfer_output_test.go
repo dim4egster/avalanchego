@@ -6,9 +6,9 @@ package nftfx
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 func TestTransferOutputVerifyNil(t *testing.T) {

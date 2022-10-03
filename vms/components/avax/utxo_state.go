@@ -6,13 +6,13 @@ package avax
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/cache"
-	"github.com/dim4egster/avalanchego/cache/metercacher"
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/linkeddb"
-	"github.com/dim4egster/avalanchego/database/prefixdb"
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/cache"
+	"github.com/dim4egster/qmallgo/cache/metercacher"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/linkeddb"
+	"github.com/dim4egster/qmallgo/database/prefixdb"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 const (

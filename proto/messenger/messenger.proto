@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package messenger;
 
-option go_package = "github.com/dim4egster/avalanchego/proto/pb/messenger";
+option go_package = "github.com/dim4egster/qmallgo/proto/pb/messenger";
 
 service Messenger {
   rpc Notify(NotifyRequest) returns (NotifyResponse);

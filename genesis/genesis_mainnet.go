@@ -8,8 +8,8 @@ import (
 
 	_ "embed"
 
-	"github.com/dim4egster/avalanchego/utils/units"
-	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
+	"github.com/dim4egster/qmallgo/utils/units"
+	"github.com/dim4egster/qmallgo/vms/platformvm/reward"
 )
 
 var (

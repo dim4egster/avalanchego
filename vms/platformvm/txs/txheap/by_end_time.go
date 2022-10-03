@@ -6,7 +6,7 @@ package txheap
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
 )
 
 var _ TimedHeap = &byEndTime{}

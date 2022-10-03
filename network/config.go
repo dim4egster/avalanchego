@@ -8,13 +8,13 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/network/dialer"
-	"github.com/dim4egster/avalanchego/network/throttling"
-	"github.com/dim4egster/avalanchego/snow/networking/tracker"
-	"github.com/dim4egster/avalanchego/snow/uptime"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/network/dialer"
+	"github.com/dim4egster/qmallgo/network/throttling"
+	"github.com/dim4egster/qmallgo/snow/networking/tracker"
+	"github.com/dim4egster/qmallgo/snow/uptime"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/ips"
 )
 
 // HealthConfig describes parameters for network layer health checks.

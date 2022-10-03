@@ -7,10 +7,10 @@ import (
 	"crypto"
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/message"
-	"github.com/dim4egster/avalanchego/utils/ips"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/message"
+	"github.com/dim4egster/qmallgo/utils/ips"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 var _ Network = &testNetwork{}

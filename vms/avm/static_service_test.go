@@ -6,11 +6,11 @@ package avm
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/formatting"
-	"github.com/dim4egster/avalanchego/utils/formatting/address"
-	"github.com/dim4egster/avalanchego/utils/json"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/formatting"
+	"github.com/dim4egster/qmallgo/utils/formatting/address"
+	"github.com/dim4egster/qmallgo/utils/json"
 )
 
 var addrStrArray = []string{

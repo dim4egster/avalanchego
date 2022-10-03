@@ -7,9 +7,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowstorm"
 )
 
 var (

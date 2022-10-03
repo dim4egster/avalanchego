@@ -4,7 +4,7 @@
 package chains
 
 import (
-	"github.com/dim4egster/avalanchego/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
 )
 
 // Registrant can register the existence of a chain

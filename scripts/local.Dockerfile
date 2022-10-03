@@ -14,11 +14,11 @@ FROM golang:1.18.5-buster
 RUN mkdir -p /go/src/github.com/dim4egster
 
 WORKDIR $GOPATH/src/github.com/dim4egster
-COPY avalanchego avalanchego
+COPY qmallgo qmallgo
 COPY coreth coreth
 
-WORKDIR $GOPATH/src/github.com/dim4egster/avalanchego
+WORKDIR $GOPATH/src/github.com/dim4egster/qmallgo
 RUN ./scripts/build_avalanche.sh
 RUN ./scripts/build_coreth.sh ../coreth $PWD/build/plugins/evm
 
-RUN ln -sv $GOPATH/src/github.com/dim4egster/avalanche-byzantine/ /avalanchego
+RUN ln -sv $GOPATH/src/github.com/dim4egster/avalanche-byzantine/ /qmallgo

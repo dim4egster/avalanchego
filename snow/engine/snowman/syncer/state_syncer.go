@@ -11,14 +11,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/math"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/math"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 var _ common.StateSyncer = &stateSyncer{}

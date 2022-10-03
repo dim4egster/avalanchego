@@ -4,7 +4,7 @@
 package state
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 var _ StakerIterator = &maskedIterator{}

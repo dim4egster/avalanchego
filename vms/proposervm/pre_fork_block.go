@@ -8,10 +8,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	"github.com/dim4egster/avalanchego/vms/proposervm/block"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/vms/proposervm/block"
 )
 
 var _ Block = &preForkBlock{}

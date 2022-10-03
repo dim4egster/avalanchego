@@ -6,9 +6,9 @@ package x
 import (
 	stdcontext "context"
 
-	"github.com/dim4egster/avalanchego/api/info"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/avm"
+	"github.com/dim4egster/qmallgo/api/info"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/avm"
 )
 
 var _ Context = &context{}

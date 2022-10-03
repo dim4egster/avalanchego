@@ -6,11 +6,11 @@ package txs
 import (
 	"reflect"
 
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 var (

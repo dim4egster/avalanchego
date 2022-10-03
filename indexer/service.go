@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/formatting"
-	"github.com/dim4egster/avalanchego/utils/json"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/formatting"
+	"github.com/dim4egster/qmallgo/utils/json"
 )
 
 type service struct {

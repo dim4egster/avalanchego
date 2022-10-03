@@ -4,7 +4,7 @@
 package message
 
 import (
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 // Field that may be packed into a message

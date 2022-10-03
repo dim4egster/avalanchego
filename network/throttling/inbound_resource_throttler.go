@@ -11,11 +11,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/networking/tracker"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/networking/tracker"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 const epsilon = time.Millisecond

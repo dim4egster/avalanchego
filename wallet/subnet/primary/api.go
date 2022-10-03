@@ -6,17 +6,17 @@ package primary
 import (
 	"context"
 
-	"github.com/dim4egster/avalanchego/api/info"
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/rpc"
-	"github.com/dim4egster/avalanchego/vms/avm"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/platformvm"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
-	"github.com/dim4egster/avalanchego/wallet/chain/p"
-	"github.com/dim4egster/avalanchego/wallet/chain/x"
+	"github.com/dim4egster/qmallgo/api/info"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/rpc"
+	"github.com/dim4egster/qmallgo/vms/avm"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/platformvm"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/wallet/chain/p"
+	"github.com/dim4egster/qmallgo/wallet/chain/x"
 )
 
 const (

@@ -12,20 +12,20 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/manager"
-	"github.com/dim4egster/avalanchego/database/prefixdb"
-	"github.com/dim4egster/avalanchego/database/versiondb"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/version"
-	"github.com/dim4egster/avalanchego/vms/proposervm/state"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/manager"
+	"github.com/dim4egster/qmallgo/database/prefixdb"
+	"github.com/dim4egster/qmallgo/database/versiondb"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/version"
+	"github.com/dim4egster/qmallgo/vms/proposervm/state"
 
-	statelessblock "github.com/dim4egster/avalanchego/vms/proposervm/block"
+	statelessblock "github.com/dim4egster/qmallgo/vms/proposervm/block"
 )
 
 func stopHeightReindexing(t *testing.T, coreVM *fullVM, dbMan manager.Manager) {

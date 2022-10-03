@@ -4,7 +4,7 @@
 package signer
 
 import (
-	"github.com/dim4egster/avalanchego/utils/crypto/bls"
+	"github.com/dim4egster/qmallgo/utils/crypto/bls"
 )
 
 var _ Signer = &Empty{}

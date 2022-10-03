@@ -7,11 +7,11 @@ import (
 	"container/list"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/api"
-	"github.com/dim4egster/avalanchego/chains/atomic"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
-	"github.com/dim4egster/avalanchego/vms/components/keystore"
+	"github.com/dim4egster/qmallgo/api"
+	"github.com/dim4egster/qmallgo/chains/atomic"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/vms/components/keystore"
 )
 
 // Returns:

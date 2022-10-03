@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/constants"
 )
 
 var staleSocketTimeout = 100 * time.Millisecond

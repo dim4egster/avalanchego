@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/formatting"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/formatting"
 )
 
 type snowballNode struct {

@@ -4,12 +4,12 @@
 package snowman
 
 import (
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowball"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowball"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/snow/validators"
 )
 
 // Config wraps all the parameters needed for a snowman engine

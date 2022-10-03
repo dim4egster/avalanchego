@@ -4,8 +4,8 @@
 package atomic
 
 import (
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/codec/linearcodec"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/codec/linearcodec"
 )
 
 const codecVersion = 0

@@ -10,14 +10,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/crypto"
-	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
-	"github.com/dim4egster/avalanchego/vms/platformvm/state"
-	"github.com/dim4egster/avalanchego/vms/platformvm/status"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/crypto"
+	"github.com/dim4egster/qmallgo/vms/platformvm/reward"
+	"github.com/dim4egster/qmallgo/vms/platformvm/state"
+	"github.com/dim4egster/qmallgo/vms/platformvm/status"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
 )
 
 // Ensure semantic verification updates the current and pending staker set
@@ -463,7 +463,7 @@ func TestAdvanceTimeTxUpdateStakers(t *testing.T) {
 	}
 }
 
-// Regression test for https://github.com/dim4egster/avalanchego/pull/584
+// Regression test for https://github.com/dim4egster/qmallgo/pull/584
 // that ensures it fixes a bug where subnet validators are not removed
 // when timestamp is advanced and there is a pending staker whose start time
 // is after the new timestamp

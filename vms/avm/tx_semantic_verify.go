@@ -4,10 +4,10 @@
 package avm
 
 import (
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
 )
 
 var _ txs.Visitor = &txSemanticVerify{}

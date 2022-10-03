@@ -3,7 +3,7 @@
 
 package common
 
-import "github.com/dim4egster/avalanchego/ids"
+import "github.com/dim4egster/qmallgo/ids"
 
 // Send a query composed partially of push queries and partially of pull queries.
 // The validators in [vdrs] will be queried.

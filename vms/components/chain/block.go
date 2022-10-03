@@ -4,7 +4,7 @@
 package chain
 
 import (
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
 )
 
 // BlockWrapper wraps a snowman Block while adding a smart caching layer to improve

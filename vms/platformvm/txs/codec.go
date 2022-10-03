@@ -4,12 +4,12 @@
 package txs
 
 import (
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/codec/linearcodec"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
-	"github.com/dim4egster/avalanchego/vms/platformvm/signer"
-	"github.com/dim4egster/avalanchego/vms/platformvm/stakeable"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/codec/linearcodec"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
+	"github.com/dim4egster/qmallgo/vms/platformvm/signer"
+	"github.com/dim4egster/qmallgo/vms/platformvm/stakeable"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 // Version is the current default codec version

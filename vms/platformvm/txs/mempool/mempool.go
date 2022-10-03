@@ -9,11 +9,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/cache"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/units"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs/txheap"
+	"github.com/dim4egster/qmallgo/cache"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/units"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs/txheap"
 )
 
 const (

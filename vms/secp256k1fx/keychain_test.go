@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/crypto"
-	"github.com/dim4egster/avalanchego/utils/formatting"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/crypto"
+	"github.com/dim4egster/qmallgo/utils/formatting"
 )
 
 var (

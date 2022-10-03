@@ -6,9 +6,9 @@ package avm
 import (
 	"reflect"
 
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/vms/avm/fxs"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/vms/avm/fxs"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
 )
 
 var _ txs.Visitor = &txInit{}

@@ -7,12 +7,12 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/linkeddb"
-	"github.com/dim4egster/avalanchego/database/prefixdb"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/linkeddb"
+	"github.com/dim4egster/qmallgo/database/prefixdb"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 var errDuplicatedOperation = errors.New("duplicated operation on provided value")

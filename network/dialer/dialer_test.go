@@ -14,8 +14,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/utils/ips"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/ips"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 // Test that canceling a context passed into Dial results

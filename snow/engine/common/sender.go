@@ -4,8 +4,8 @@
 package common
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
 )
 
 // Sender defines how a consensus engine sends messages and requests to other

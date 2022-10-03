@@ -13,18 +13,18 @@ import (
 	"time"
 
 	runner_sdk "github.com/ava-labs/avalanche-network-runner-sdk"
-	"github.com/dim4egster/avalanchego/tests"
-	"github.com/dim4egster/avalanchego/tests/e2e"
+	"github.com/dim4egster/qmallgo/tests"
+	"github.com/dim4egster/qmallgo/tests/e2e"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 
 	// ensure test packages are scanned by ginkgo
-	_ "github.com/dim4egster/avalanchego/tests/e2e/blueberry"
-	_ "github.com/dim4egster/avalanchego/tests/e2e/ping"
-	_ "github.com/dim4egster/avalanchego/tests/e2e/static-handlers"
-	_ "github.com/dim4egster/avalanchego/tests/e2e/whitelist-vtx"
-	_ "github.com/dim4egster/avalanchego/tests/e2e/x/transfer"
+	_ "github.com/dim4egster/qmallgo/tests/e2e/blueberry"
+	_ "github.com/dim4egster/qmallgo/tests/e2e/ping"
+	_ "github.com/dim4egster/qmallgo/tests/e2e/static-handlers"
+	_ "github.com/dim4egster/qmallgo/tests/e2e/whitelist-vtx"
+	_ "github.com/dim4egster/qmallgo/tests/e2e/x/transfer"
 )
 
 func TestE2E(t *testing.T) {
@@ -63,15 +63,15 @@ func init() {
 	)
 	flag.StringVar(
 		&networkRunnerAvalancheGoExecPath,
-		"network-runner-avalanchego-path",
+		"network-runner-qmallgo-path",
 		"",
-		"[optional] avalanchego executable path (only required for local network-runner tests)",
+		"[optional] qmallgo executable path (only required for local network-runner tests)",
 	)
 	flag.StringVar(
 		&networkRunnerAvalancheGoLogLevel,
-		"network-runner-avalanchego-log-level",
+		"network-runner-qmallgo-log-level",
 		"INFO",
-		"[optional] avalanchego log-level (only required for local network-runner tests)",
+		"[optional] qmallgo log-level (only required for local network-runner tests)",
 	)
 
 	// e.g., custom network HTTP RPC endpoints

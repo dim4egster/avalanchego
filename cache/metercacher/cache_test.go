@@ -8,7 +8,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/cache"
+	"github.com/dim4egster/qmallgo/cache"
 )
 
 func TestInterface(t *testing.T) {

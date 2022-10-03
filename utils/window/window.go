@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/buffer"
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/buffer"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
 )
 
 var _ Window[struct{}] = &window[struct{}]{}

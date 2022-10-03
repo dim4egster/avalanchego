@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/dim4egster/avalanchego/app"
-	"github.com/dim4egster/avalanchego/utils/subprocess"
+	"github.com/dim4egster/qmallgo/app"
+	"github.com/dim4egster/qmallgo/utils/subprocess"
 )
 
 func Exec(path string, args []string, forwardIO bool) (app.App, *plugin.Client, error) {

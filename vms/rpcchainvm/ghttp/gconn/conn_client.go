@@ -12,9 +12,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 
-	connpb "github.com/dim4egster/avalanchego/proto/pb/net/conn"
+	connpb "github.com/dim4egster/qmallgo/proto/pb/net/conn"
 )
 
 var _ net.Conn = &Client{}

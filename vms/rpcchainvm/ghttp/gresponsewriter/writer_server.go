@@ -11,15 +11,15 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/ghttp/gconn"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/ghttp/greader"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/ghttp/gwriter"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/ghttp/gconn"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/ghttp/greader"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 
-	responsewriterpb "github.com/dim4egster/avalanchego/proto/pb/http/responsewriter"
-	readerpb "github.com/dim4egster/avalanchego/proto/pb/io/reader"
-	writerpb "github.com/dim4egster/avalanchego/proto/pb/io/writer"
-	connpb "github.com/dim4egster/avalanchego/proto/pb/net/conn"
+	responsewriterpb "github.com/dim4egster/qmallgo/proto/pb/http/responsewriter"
+	readerpb "github.com/dim4egster/qmallgo/proto/pb/io/reader"
+	writerpb "github.com/dim4egster/qmallgo/proto/pb/io/writer"
+	connpb "github.com/dim4egster/qmallgo/proto/pb/net/conn"
 )
 
 var (

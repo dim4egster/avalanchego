@@ -6,7 +6,7 @@ package api
 import (
 	"context"
 
-	"github.com/dim4egster/avalanchego/utils/rpc"
+	"github.com/dim4egster/qmallgo/utils/rpc"
 )
 
 var _ StaticClient = &staticClient{}

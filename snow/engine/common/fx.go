@@ -4,7 +4,7 @@
 package common
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Fx wraps an instance of a feature extension

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
 )
 
 func TestBaseTxMarshalJSON(t *testing.T) {

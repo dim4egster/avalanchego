@@ -4,10 +4,10 @@
 package common
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/engine/common/tracker"
-	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/engine/common/tracker"
+	"github.com/dim4egster/qmallgo/snow/validators"
 )
 
 // DefaultConfigTest returns a test configuration

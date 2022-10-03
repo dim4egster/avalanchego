@@ -8,9 +8,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/dim4egster/avalanchego/app"
+	"github.com/dim4egster/qmallgo/app"
 
-	pluginpb "github.com/dim4egster/avalanchego/proto/pb/plugin"
+	pluginpb "github.com/dim4egster/qmallgo/proto/pb/plugin"
 )
 
 // Server wraps a node so it can be served with the hashicorp plugin harness

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 const NodeIDPrefix = "NodeID-"

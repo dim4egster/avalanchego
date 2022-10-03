@@ -9,15 +9,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/chains/atomic"
-	"github.com/dim4egster/avalanchego/database/prefixdb"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/crypto"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
-	"github.com/dim4egster/avalanchego/vms/platformvm/status"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/chains/atomic"
+	"github.com/dim4egster/qmallgo/database/prefixdb"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/crypto"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/platformvm/blocks"
+	"github.com/dim4egster/qmallgo/vms/platformvm/status"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 func TestAtomicTxImports(t *testing.T) {

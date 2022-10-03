@@ -9,15 +9,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/crypto"
-	"github.com/dim4egster/avalanchego/utils/hashing"
-	"github.com/dim4egster/avalanchego/utils/units"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/platformvm/state"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/crypto"
+	"github.com/dim4egster/qmallgo/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/units"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/platformvm/state"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 // Ensure Execute fails when there are not enough control sigs

@@ -8,13 +8,13 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/api/health"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/message"
-	"github.com/dim4egster/avalanchego/snow/networking/benchlist"
-	"github.com/dim4egster/avalanchego/snow/networking/handler"
-	"github.com/dim4egster/avalanchego/snow/networking/timeout"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/api/health"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/message"
+	"github.com/dim4egster/qmallgo/snow/networking/benchlist"
+	"github.com/dim4egster/qmallgo/snow/networking/handler"
+	"github.com/dim4egster/qmallgo/snow/networking/timeout"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 // Router routes consensus messages to the Handler of the consensus

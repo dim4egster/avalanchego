@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/dim4egster/avalanchego/utils/wrappers"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 var (

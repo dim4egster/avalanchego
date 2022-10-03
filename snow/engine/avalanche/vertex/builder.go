@@ -4,10 +4,10 @@
 package vertex
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowstorm"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 // Builder builds a vertex given a set of parentIDs and transactions.

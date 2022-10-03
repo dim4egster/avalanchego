@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/crypto"
-	"github.com/dim4egster/avalanchego/vms/platformvm/message"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/crypto"
+	"github.com/dim4egster/qmallgo/vms/platformvm/message"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
 
-	txbuilder "github.com/dim4egster/avalanchego/vms/platformvm/txs/builder"
+	txbuilder "github.com/dim4egster/qmallgo/vms/platformvm/txs/builder"
 )
 
 func getValidTx(txBuilder txbuilder.Builder, t *testing.T) *txs.Tx {

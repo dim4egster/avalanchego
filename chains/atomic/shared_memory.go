@@ -4,9 +4,9 @@
 package atomic
 
 import (
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/versiondb"
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/versiondb"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 var _ SharedMemory = &sharedMemory{}

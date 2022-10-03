@@ -11,13 +11,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/platformvm/status"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/platformvm/status"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
 )
 
 func TestDiffMissingState(t *testing.T) {

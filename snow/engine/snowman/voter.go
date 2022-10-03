@@ -6,7 +6,7 @@ package snowman
 import (
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Voter records chits received from [vdr] once its dependencies are met.

@@ -13,11 +13,11 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/utils/resource"
-	"github.com/dim4egster/avalanchego/utils/subprocess"
-	"github.com/dim4egster/avalanchego/vms"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/utils/resource"
+	"github.com/dim4egster/qmallgo/utils/subprocess"
+	"github.com/dim4egster/qmallgo/vms"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 )
 
 var (

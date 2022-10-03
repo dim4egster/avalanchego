@@ -9,9 +9,9 @@ import (
 	"time"
 
 	runner_sdk "github.com/ava-labs/avalanche-network-runner-sdk"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/crypto"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/crypto"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 const (

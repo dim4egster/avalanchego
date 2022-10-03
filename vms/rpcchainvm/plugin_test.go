@@ -13,7 +13,7 @@ import (
 
 	plugin "github.com/hashicorp/go-plugin"
 
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 )
 
 // plugin_test collects objects and helpers generally helpful for various rpc tests

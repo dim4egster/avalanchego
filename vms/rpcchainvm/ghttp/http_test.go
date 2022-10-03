@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	httppb "github.com/dim4egster/avalanchego/proto/pb/http"
+	httppb "github.com/dim4egster/qmallgo/proto/pb/http"
 )
 
 func Test_convertWriteResponse(t *testing.T) {

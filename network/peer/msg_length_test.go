@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/constants"
 )
 
 func TestMsgLen(t *testing.T) {

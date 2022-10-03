@@ -9,15 +9,15 @@ import (
 
 	stdcontext "context"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/math"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
-	"github.com/dim4egster/avalanchego/vms/nftfx"
-	"github.com/dim4egster/avalanchego/vms/propertyfx"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
-	"github.com/dim4egster/avalanchego/wallet/subnet/primary/common"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/math"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/nftfx"
+	"github.com/dim4egster/qmallgo/vms/propertyfx"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/wallet/subnet/primary/common"
 )
 
 var (

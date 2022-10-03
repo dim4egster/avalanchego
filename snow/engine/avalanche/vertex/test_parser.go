@@ -7,7 +7,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
 )
 
 var (

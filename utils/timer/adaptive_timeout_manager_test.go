@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/message"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/message"
 )
 
 // Test that Initialize works

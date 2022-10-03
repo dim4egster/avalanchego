@@ -3,7 +3,7 @@
 
 package codec
 
-import "github.com/dim4egster/avalanchego/utils/wrappers"
+import "github.com/dim4egster/qmallgo/utils/wrappers"
 
 // Codec marshals and unmarshals
 type Codec interface {

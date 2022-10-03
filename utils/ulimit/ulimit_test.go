@@ -6,7 +6,7 @@ package ulimit
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 // Test_SetDefault performs sanity checks for the os default.

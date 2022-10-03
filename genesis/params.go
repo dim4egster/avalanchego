@@ -6,8 +6,8 @@ package genesis
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/vms/platformvm/reward"
 )
 
 type StakingConfig struct {

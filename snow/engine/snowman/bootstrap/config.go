@@ -4,9 +4,9 @@
 package bootstrap
 
 import (
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/snow/engine/common/queue"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/snow/engine/common/queue"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
 )
 
 type Config struct {

@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dim4egster/avalanchego/utils/crypto"
+	"github.com/dim4egster/qmallgo/utils/crypto"
 )
 
 // Loads a list of secp256k1 hex-encoded private keys from the file, new-line separated.

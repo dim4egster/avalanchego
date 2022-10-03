@@ -6,7 +6,7 @@ package avalanche
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/snow/consensus/snowball"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowball"
 )
 
 func TestParametersValid(t *testing.T) {

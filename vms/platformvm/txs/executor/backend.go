@@ -4,14 +4,14 @@
 package executor
 
 import (
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/uptime"
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
-	"github.com/dim4egster/avalanchego/vms/platformvm/config"
-	"github.com/dim4egster/avalanchego/vms/platformvm/fx"
-	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
-	"github.com/dim4egster/avalanchego/vms/platformvm/utxo"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/uptime"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/vms/platformvm/config"
+	"github.com/dim4egster/qmallgo/vms/platformvm/fx"
+	"github.com/dim4egster/qmallgo/vms/platformvm/reward"
+	"github.com/dim4egster/qmallgo/vms/platformvm/utxo"
 )
 
 type Backend struct {

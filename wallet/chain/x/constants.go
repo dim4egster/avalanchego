@@ -4,11 +4,11 @@
 package x
 
 import (
-	"github.com/dim4egster/avalanchego/vms/avm/fxs"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
-	"github.com/dim4egster/avalanchego/vms/nftfx"
-	"github.com/dim4egster/avalanchego/vms/propertyfx"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/vms/avm/fxs"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/vms/nftfx"
+	"github.com/dim4egster/qmallgo/vms/propertyfx"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 const (

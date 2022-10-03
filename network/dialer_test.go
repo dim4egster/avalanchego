@@ -8,8 +8,8 @@ import (
 	"errors"
 	"net"
 
-	"github.com/dim4egster/avalanchego/network/dialer"
-	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/qmallgo/network/dialer"
+	"github.com/dim4egster/qmallgo/utils/ips"
 )
 
 var (

@@ -6,7 +6,7 @@ package summary
 import (
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 func Parse(bytes []byte) (StateSummary, error) {

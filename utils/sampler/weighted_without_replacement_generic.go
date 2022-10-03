@@ -4,7 +4,7 @@
 package sampler
 
 import (
-	safemath "github.com/dim4egster/avalanchego/utils/math"
+	safemath "github.com/dim4egster/qmallgo/utils/math"
 )
 
 type weightedWithoutReplacementGeneric struct {

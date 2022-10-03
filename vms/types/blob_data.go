@@ -6,7 +6,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/dim4egster/avalanchego/utils/formatting"
+	"github.com/dim4egster/qmallgo/utils/formatting"
 )
 
 // JSONByteSlice represents [[]byte] that is json marshalled to hex

@@ -6,9 +6,9 @@ package validators
 import (
 	"math"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 
-	safemath "github.com/dim4egster/avalanchego/utils/math"
+	safemath "github.com/dim4egster/qmallgo/utils/math"
 )
 
 var _ Validator = &validator{}

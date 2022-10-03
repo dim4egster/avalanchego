@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dim4egster/avalanchego/utils/cb58"
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/cb58"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 // ShortEmpty is a useful all zero value

@@ -44,7 +44,7 @@ docker pull $avalanchego_byzantine_image
 # Setting the build ID
 git_commit_id=$( git rev-list -1 HEAD )
 
-# Build current avalanchego
+# Build current qmallgo
 source "$AVALANCHE_PATH"/scripts/build_image.sh
 
 # Target built version to use in avalanche-testing

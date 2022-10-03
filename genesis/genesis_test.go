@@ -14,11 +14,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/hashing"
-	"github.com/dim4egster/avalanchego/utils/perms"
-	"github.com/dim4egster/avalanchego/vms/platformvm/genesis"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/perms"
+	"github.com/dim4egster/qmallgo/vms/platformvm/genesis"
 )
 
 var (

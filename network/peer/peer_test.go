@@ -16,19 +16,19 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/message"
-	"github.com/dim4egster/avalanchego/network/throttling"
-	"github.com/dim4egster/avalanchego/snow/networking/router"
-	"github.com/dim4egster/avalanchego/snow/networking/tracker"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/staking"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/ips"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/math/meter"
-	"github.com/dim4egster/avalanchego/utils/resource"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/message"
+	"github.com/dim4egster/qmallgo/network/throttling"
+	"github.com/dim4egster/qmallgo/snow/networking/router"
+	"github.com/dim4egster/qmallgo/snow/networking/tracker"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/staking"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/ips"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/math/meter"
+	"github.com/dim4egster/qmallgo/utils/resource"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 type testPeer struct {

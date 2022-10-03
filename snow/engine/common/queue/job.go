@@ -4,7 +4,7 @@
 package queue
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Job defines the interface required to be placed on the job queue.

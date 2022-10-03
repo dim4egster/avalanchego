@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/dim4egster/avalanchego/utils/rpc"
+	"github.com/dim4egster/qmallgo/utils/rpc"
 )
 
 var _ Client = &client{}

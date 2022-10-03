@@ -6,9 +6,9 @@ package snowstorm
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/utils/sampler"
+	"github.com/dim4egster/qmallgo/utils/sampler"
 
-	sbcon "github.com/dim4egster/avalanchego/snow/consensus/snowball"
+	sbcon "github.com/dim4egster/qmallgo/snow/consensus/snowball"
 )
 
 func Simulate(

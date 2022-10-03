@@ -6,8 +6,8 @@ package snowman
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/choices"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/choices"
 )
 
 // Block is a possible decision that dictates the next canonical block.

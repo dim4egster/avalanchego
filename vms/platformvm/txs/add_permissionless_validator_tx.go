@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/math"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
-	"github.com/dim4egster/avalanchego/vms/platformvm/fx"
-	"github.com/dim4egster/avalanchego/vms/platformvm/reward"
-	"github.com/dim4egster/avalanchego/vms/platformvm/signer"
-	"github.com/dim4egster/avalanchego/vms/platformvm/validator"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/math"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/platformvm/fx"
+	"github.com/dim4egster/qmallgo/vms/platformvm/reward"
+	"github.com/dim4egster/qmallgo/vms/platformvm/signer"
+	"github.com/dim4egster/qmallgo/vms/platformvm/validator"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 var (

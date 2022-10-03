@@ -14,12 +14,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/networking/tracker"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/math/meter"
-	"github.com/dim4egster/avalanchego/utils/resource"
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/networking/tracker"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/math/meter"
+	"github.com/dim4egster/qmallgo/utils/resource"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
 )
 
 func TestNewSystemThrottler(t *testing.T) {

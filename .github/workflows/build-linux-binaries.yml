@@ -17,7 +17,7 @@ jobs:
           check-latest: true
       - run: go version
 
-      - name: Build the avalanchego binaries
+      - name: Build the qmallgo binaries
         run: ./scripts/build.sh
 
       - name: Install aws cli
@@ -56,7 +56,7 @@ jobs:
           check-latest: true
       - run: go version
 
-      - name: Build the avalanchego binaries
+      - name: Build the qmallgo binaries
         run: ./scripts/build.sh
 
       - name: Install aws cli

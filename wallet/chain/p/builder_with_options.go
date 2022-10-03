@@ -6,13 +6,13 @@ package p
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/platformvm/signer"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
-	"github.com/dim4egster/avalanchego/vms/platformvm/validator"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
-	"github.com/dim4egster/avalanchego/wallet/subnet/primary/common"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/platformvm/signer"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/platformvm/validator"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/wallet/subnet/primary/common"
 )
 
 var _ Builder = &builderWithOptions{}

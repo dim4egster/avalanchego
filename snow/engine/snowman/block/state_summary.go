@@ -4,7 +4,7 @@
 package block
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // StateSummary represents all the information needed to download, verify, and

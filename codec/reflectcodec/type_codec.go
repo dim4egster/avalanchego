@@ -9,8 +9,8 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 const (

@@ -7,11 +7,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/math"
-	"github.com/dim4egster/avalanchego/utils/sampler"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/math"
+	"github.com/dim4egster/qmallgo/utils/sampler"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 // Proposer list constants

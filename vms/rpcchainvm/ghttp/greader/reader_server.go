@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	readerpb "github.com/dim4egster/avalanchego/proto/pb/io/reader"
+	readerpb "github.com/dim4egster/qmallgo/proto/pb/io/reader"
 )
 
 var _ readerpb.ReaderServer = &Server{}

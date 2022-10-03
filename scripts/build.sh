@@ -15,7 +15,7 @@ source "$AVALANCHE_PATH"/scripts/constants.sh
 echo "Downloading dependencies..."
 go mod download
 
-# Build avalanchego
+# Build qmallgo
 "$AVALANCHE_PATH"/scripts/build_avalanche.sh
 
 # Build coreth

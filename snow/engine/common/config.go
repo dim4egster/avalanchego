@@ -6,9 +6,9 @@ package common
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/engine/common/tracker"
-	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/engine/common/tracker"
+	"github.com/dim4egster/qmallgo/snow/validators"
 )
 
 // Config wraps the common configurations that are needed by a Snow consensus

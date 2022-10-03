@@ -8,9 +8,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
 
-	safemath "github.com/dim4egster/avalanchego/utils/math"
+	safemath "github.com/dim4egster/qmallgo/utils/math"
 )
 
 var (

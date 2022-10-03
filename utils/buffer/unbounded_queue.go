@@ -3,7 +3,7 @@
 
 package buffer
 
-import "github.com/dim4egster/avalanchego/utils"
+import "github.com/dim4egster/qmallgo/utils"
 
 const defaultInitSize = 32
 

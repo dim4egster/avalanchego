@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/database/nodb"
-	"github.com/dim4egster/avalanchego/utils"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/database/nodb"
+	"github.com/dim4egster/qmallgo/utils"
 )
 
 const (

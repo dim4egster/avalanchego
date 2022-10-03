@@ -6,9 +6,9 @@ package galiasreader
 import (
 	"context"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 
-	aliasreaderpb "github.com/dim4egster/avalanchego/proto/pb/aliasreader"
+	aliasreaderpb "github.com/dim4egster/qmallgo/proto/pb/aliasreader"
 )
 
 var _ ids.AliaserReader = &Client{}

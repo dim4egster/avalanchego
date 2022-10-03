@@ -6,7 +6,7 @@ package version
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/constants"
 )
 
 // These are globals that describe network upgrades and node versions

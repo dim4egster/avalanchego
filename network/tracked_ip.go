@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dim4egster/avalanchego/network/peer"
+	"github.com/dim4egster/qmallgo/network/peer"
 )
 
 func init() { rand.Seed(time.Now().UnixNano()) }

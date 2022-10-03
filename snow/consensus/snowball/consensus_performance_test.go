@@ -6,7 +6,7 @@ package snowball
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/utils/sampler"
+	"github.com/dim4egster/qmallgo/utils/sampler"
 )
 
 func TestSnowballOptimized(t *testing.T) {

@@ -6,7 +6,7 @@ package proposer
 import (
 	"bytes"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 type validatorData struct {

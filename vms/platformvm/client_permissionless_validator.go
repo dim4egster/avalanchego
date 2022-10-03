@@ -6,9 +6,9 @@ package platformvm
 import (
 	"encoding/json"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/formatting/address"
-	"github.com/dim4egster/avalanchego/vms/platformvm/api"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/formatting/address"
+	"github.com/dim4egster/qmallgo/vms/platformvm/api"
 )
 
 // ClientStaker is the representation of a staker sent via client.

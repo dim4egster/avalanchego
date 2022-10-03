@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dim4egster/avalanchego/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/constants"
 )
 
 // MinConnectedStake is the minimum percentage of the Primary Network's that

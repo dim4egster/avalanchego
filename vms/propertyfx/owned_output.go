@@ -4,7 +4,7 @@
 package propertyfx
 
 import (
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 type OwnedOutput struct {

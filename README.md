@@ -31,8 +31,8 @@ If you plan to build AvalancheGo from source, you will also need the following s
 Clone the AvalancheGo repository:
 
 ```sh
-git clone git@github.com:dim4egster/avalanchego.git
-cd avalanchego
+git clone git@github.com:dim4egster/qmallgo.git
+cd qmallgo
 ```
 
 This will clone and checkout to `master` branch.
@@ -45,10 +45,10 @@ Build Avalanche by running the build script:
 ./scripts/build.sh
 ```
 
-The output of the script will be the Avalanche binary named `avalanchego`. It is located in the build directory:
+The output of the script will be the Avalanche binary named `qmallgo`. It is located in the build directory:
 
 ```sh
-./build/avalanchego
+./build/qmallgo
 ```
 
 ### Binary Repository
@@ -63,7 +63,7 @@ To add the repository on Ubuntu 18.04 (Bionic), run:
 
 ```sh
 sudo su -
-wget -O - https://downloads.avax.network/avalanchego.gpg.key | apt-key add -
+wget -O - https://downloads.avax.network/qmallgo.gpg.key | apt-key add -
 echo "deb https://downloads.avax.network/apt bionic main" > /etc/apt/sources.list.d/avalanche.list
 exit
 ```
@@ -72,31 +72,31 @@ To add the repository on Ubuntu 20.04 (Focal), run:
 
 ```sh
 sudo su -
-wget -O - https://downloads.avax.network/avalanchego.gpg.key | apt-key add -
+wget -O - https://downloads.avax.network/qmallgo.gpg.key | apt-key add -
 echo "deb https://downloads.avax.network/apt focal main" > /etc/apt/sources.list.d/avalanche.list
 exit
 ```
 
 #### Installing the Latest Version
 
-After adding the APT repository, install avalanchego by running:
+After adding the APT repository, install qmallgo by running:
 
 ```sh
 sudo apt update
-sudo apt install avalanchego
+sudo apt install qmallgo
 ```
 
 ### Binary Install
 
-Download the [latest build](https://github.com/dim4egster/avalanchego/releases/latest) for your operating system and architecture.
+Download the [latest build](https://github.com/dim4egster/qmallgo/releases/latest) for your operating system and architecture.
 
-The Avalanche binary to be executed is named `avalanchego`.
+The Avalanche binary to be executed is named `qmallgo`.
 
 ### Docker Install
 
 Make sure docker is installed on the machine - so commands like `docker run` etc. are available.
 
-Building the docker image of latest avalanchego branch can be done by running:
+Building the docker image of latest qmallgo branch can be done by running:
 
 ```sh
 ./scripts/build_image.sh
@@ -108,10 +108,10 @@ To check the built image, run:
 docker image ls
 ```
 
-The image should be tagged as `avaplatform/avalanchego:xxxxxxxx`, where `xxxxxxxx` is the shortened commit of the Avalanche source it was built from. To run the avalanche node, run:
+The image should be tagged as `avaplatform/qmallgo:xxxxxxxx`, where `xxxxxxxx` is the shortened commit of the Avalanche source it was built from. To run the avalanche node, run:
 
 ```sh
-docker run -ti -p 9650:9650 -p 9651:9651 avaplatform/avalanchego:xxxxxxxx /avalanchego/build/avalanchego
+docker run -ti -p 9650:9650 -p 9651:9651 avaplatform/qmallgo:xxxxxxxx /qmallgo/build/qmallgo
 ```
 
 ## Running Avalanche
@@ -121,7 +121,7 @@ docker run -ti -p 9650:9650 -p 9651:9651 avaplatform/avalanchego:xxxxxxxx /avala
 To connect to the Avalanche Mainnet, run:
 
 ```sh
-./build/avalanchego
+./build/qmallgo
 ```
 
 You should see some pretty ASCII art and log messages.
@@ -133,7 +133,7 @@ You can use `Ctrl+C` to kill the node.
 To connect to the Fuji Testnet, run:
 
 ```sh
-./build/avalanchego --network-id=fuji
+./build/qmallgo --network-id=fuji
 ```
 
 ### Creating a Local Testnet
@@ -144,7 +144,7 @@ See [this tutorial.](https://docs.avax.network/build/tutorials/platform/create-a
 
 A node needs to catch up to the latest network state before it can participate in consensus and serve API calls. This process, called bootstrapping, currently takes several days for a new node connected to Mainnet.
 
-A node will not [report healthy](https://docs.avax.network/build/avalanchego-apis/health) until it is done bootstrapping.
+A node will not [report healthy](https://docs.avax.network/build/qmallgo-apis/health) until it is done bootstrapping.
 
 Improvements that reduce the amount of time it takes to bootstrap are under development.
 
@@ -200,10 +200,10 @@ Going forward, AvalancheGo will use [gomock](https://github.com/golang/mock) for
 Example usage:
 
 ```sh
-mockgen -destination vms/platformvm/state/mock_diff.go -package state github.com/dim4egster/avalanchego/vms/platformvm/state Diff
+mockgen -destination vms/platformvm/state/mock_diff.go -package state github.com/dim4egster/qmallgo/vms/platformvm/state Diff
 ```
 
-This makes a mock implementation of the `Diff` interface from `github.com/dim4egster/avalanchego/vms/platformvm/state`and puts it at `vms/platformvm/state/mock_diff.go`. The struct implementing the mock will be in the `state` package.
+This makes a mock implementation of the `Diff` interface from `github.com/dim4egster/qmallgo/vms/platformvm/state`and puts it at `vms/platformvm/state/mock_diff.go`. The struct implementing the mock will be in the `state` package.
 
 See `gomock` documentation for more information.
 

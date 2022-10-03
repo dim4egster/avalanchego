@@ -4,10 +4,10 @@
 package common
 
 import (
-	"github.com/dim4egster/avalanchego/api/health"
-	"github.com/dim4egster/avalanchego/database/manager"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/validators"
+	"github.com/dim4egster/qmallgo/api/health"
+	"github.com/dim4egster/qmallgo/database/manager"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/validators"
 )
 
 // VM describes the interface that all consensus VMs must implement

@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/dim4egster/avalanchego/api"
-	"github.com/dim4egster/avalanchego/database/manager"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/utils/formatting"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/api"
+	"github.com/dim4egster/qmallgo/database/manager"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/utils/formatting"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 type service struct {

@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/api"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/formatting"
-	"github.com/dim4egster/avalanchego/utils/json"
-	"github.com/dim4egster/avalanchego/utils/rpc"
+	"github.com/dim4egster/qmallgo/api"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/formatting"
+	"github.com/dim4egster/qmallgo/utils/json"
+	"github.com/dim4egster/qmallgo/utils/rpc"
 )
 
 var _ WalletClient = &client{}

@@ -1,9 +1,9 @@
 - name: Setup gpg key
   apt_key:
-    url: https://downloads.avax.network/avalanchego.gpg.key
+    url: https://downloads.avax.network/qmallgo.gpg.key
     state: present
 
-- name: Setup avalanchego repo
+- name: Setup qmallgo repo
   apt_repository:
     repo: deb https://downloads.avax.network/apt bionic main
     state: present
@@ -28,8 +28,8 @@
 
 - name: Setup systemd
   template:
-    src: templates/avalanchego.service.j2
-    dest: /etc/systemd/system/avalanchego.service
+    src: templates/qmallgo.service.j2
+    dest: /etc/systemd/system/qmallgo.service
     mode: 0755
 
 - name: Create avalanche user
@@ -41,14 +41,14 @@
 
 - name: Create avalanche config dir
   file:
-    path: /etc/avalanchego
+    path: /etc/qmallgo
     owner: "{{ ava_user }}"
     group: "{{ ava_group }}"
     state: directory
 
 - name: Create avalanche C config dir
   file:
-    path: /etc/avalanchego/C
+    path: /etc/qmallgo/C
     owner: "{{ ava_user }}"
     group: "{{ ava_group }}"
     state: directory
@@ -75,13 +75,13 @@
     state: directory
     recurse: yes
 
-- name: Build avalanchego
+- name: Build qmallgo
   command: ./scripts/build.sh
   args:
     chdir: "{{ repo_folder }}"
 
-- name: Copy avalanchego binaries to the correct location
-  command: cp build/avalanchego /usr/local/bin/avalanchego
+- name: Copy qmallgo binaries to the correct location
+  command: cp build/qmallgo /usr/local/bin/qmallgo
   args:
     chdir: "{{ repo_folder }}"
 
@@ -94,16 +94,16 @@
 - name: Configure avalanche 
   template:
     src: templates/conf.json.j2
-    dest: /etc/avalanchego/conf.json
+    dest: /etc/qmallgo/conf.json
     mode: 0644
 
 - name: Configure avalanche C Chain
   template:
     src: templates/C/config.json.j2
-    dest: /etc/avalanchego/C/config.json
+    dest: /etc/qmallgo/C/config.json
     mode: 0644
 
 - name: Enable Avalanche
   systemd:
-    name: avalanchego
+    name: qmallgo
     enabled: yes

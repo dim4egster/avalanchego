@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/staking"
-	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/qmallgo/staking"
+	"github.com/dim4egster/qmallgo/utils/ips"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/utils/crypto"
+	"github.com/dim4egster/qmallgo/utils/crypto"
 )
 
 func TestLoadTestKeys(t *testing.T) {

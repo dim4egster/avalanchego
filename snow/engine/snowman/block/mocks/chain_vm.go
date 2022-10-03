@@ -8,12 +8,12 @@ import (
 	reflect "reflect"
 	time "time"
 
-	manager "github.com/dim4egster/avalanchego/database/manager"
-	ids "github.com/dim4egster/avalanchego/ids"
-	snow "github.com/dim4egster/avalanchego/snow"
-	snowman "github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	common "github.com/dim4egster/avalanchego/snow/engine/common"
-	version "github.com/dim4egster/avalanchego/version"
+	manager "github.com/dim4egster/qmallgo/database/manager"
+	ids "github.com/dim4egster/qmallgo/ids"
+	snow "github.com/dim4egster/qmallgo/snow"
+	snowman "github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	common "github.com/dim4egster/qmallgo/snow/engine/common"
+	version "github.com/dim4egster/qmallgo/version"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/qmallgo/database"
 )
 
 var (

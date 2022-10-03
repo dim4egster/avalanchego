@@ -4,9 +4,9 @@
 package secp256k1fx
 
 import (
-	"github.com/dim4egster/avalanchego/codec"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/timer/mockable"
+	"github.com/dim4egster/qmallgo/codec"
+	"github.com/dim4egster/qmallgo/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/timer/mockable"
 )
 
 // VM that this Fx must be run by

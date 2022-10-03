@@ -10,9 +10,9 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/dim4egster/avalanchego/app"
+	"github.com/dim4egster/qmallgo/app"
 
-	pluginpb "github.com/dim4egster/avalanchego/proto/pb/plugin"
+	pluginpb "github.com/dim4egster/qmallgo/proto/pb/plugin"
 )
 
 const Name = "nodeProcess"

@@ -9,11 +9,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/message"
-	"github.com/dim4egster/avalanchego/network/throttling"
-	"github.com/dim4egster/avalanchego/utils/buffer"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/message"
+	"github.com/dim4egster/qmallgo/network/throttling"
+	"github.com/dim4egster/qmallgo/utils/buffer"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 const initialQueueSize = 64

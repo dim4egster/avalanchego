@@ -3,7 +3,7 @@
 
 package registry
 
-import "github.com/dim4egster/avalanchego/ids"
+import "github.com/dim4egster/qmallgo/ids"
 
 var _ VMRegistry = &vmRegistry{}
 

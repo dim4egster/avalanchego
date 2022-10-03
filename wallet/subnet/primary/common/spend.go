@@ -4,8 +4,8 @@
 package common
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 // MatchOwners attempts to match a list of addresses up to the provided

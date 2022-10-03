@@ -4,14 +4,14 @@
 package executor
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	"github.com/dim4egster/avalanchego/utils/window"
-	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
-	"github.com/dim4egster/avalanchego/vms/platformvm/metrics"
-	"github.com/dim4egster/avalanchego/vms/platformvm/state"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs/executor"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs/mempool"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/utils/window"
+	"github.com/dim4egster/qmallgo/vms/platformvm/blocks"
+	"github.com/dim4egster/qmallgo/vms/platformvm/metrics"
+	"github.com/dim4egster/qmallgo/vms/platformvm/state"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs/executor"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs/mempool"
 )
 
 var _ Manager = &manager{}

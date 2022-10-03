@@ -4,7 +4,7 @@
 package address
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 func ParseToID(addrStr string) (ids.ShortID, error) {

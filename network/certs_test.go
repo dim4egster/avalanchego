@@ -8,9 +8,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/network/peer"
-	"github.com/dim4egster/avalanchego/staking"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/network/peer"
+	"github.com/dim4egster/qmallgo/staking"
 )
 
 var (

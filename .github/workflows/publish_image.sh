@@ -19,7 +19,7 @@ source "$AVALANCHE_PATH"/scripts/versions.sh
 source "$AVALANCHE_PATH"/scripts/constants.sh
 
 if [[ $current_branch == "master" ]]; then
-  echo "Tagging current avalanchego image as $avalanchego_dockerhub_repo:latest"
+  echo "Tagging current qmallgo image as $avalanchego_dockerhub_repo:latest"
   docker tag $avalanchego_dockerhub_repo:$current_branch $avalanchego_dockerhub_repo:latest
 fi
 

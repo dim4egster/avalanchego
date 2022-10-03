@@ -10,7 +10,7 @@ package database
 import (
 	"io"
 
-	"github.com/dim4egster/avalanchego/api/health"
+	"github.com/dim4egster/qmallgo/api/health"
 )
 
 // KeyValueReader wraps the Has and Get method of a backing data store.

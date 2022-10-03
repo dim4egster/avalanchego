@@ -6,10 +6,10 @@ package snowstorm
 import (
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
 
-	sbcon "github.com/dim4egster/avalanchego/snow/consensus/snowball"
+	sbcon "github.com/dim4egster/qmallgo/snow/consensus/snowball"
 )
 
 // Consensus is a snowball instance deciding between an unbounded number of

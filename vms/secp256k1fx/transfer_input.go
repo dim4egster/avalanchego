@@ -6,7 +6,7 @@ package secp256k1fx
 import (
 	"errors"
 
-	"github.com/dim4egster/avalanchego/snow"
+	"github.com/dim4egster/qmallgo/snow"
 )
 
 var errNoValueInput = errors.New("input has no value")

@@ -9,11 +9,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
-	"github.com/dim4egster/avalanchego/vms/platformvm/state"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs/executor"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/platformvm/blocks"
+	"github.com/dim4egster/qmallgo/vms/platformvm/state"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs/executor"
 )
 
 func buildApricotBlock(

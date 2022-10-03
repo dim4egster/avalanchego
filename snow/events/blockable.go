@@ -4,7 +4,7 @@
 package events
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Blockable defines what an object must implement to be able to block on

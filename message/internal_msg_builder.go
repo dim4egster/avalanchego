@@ -4,8 +4,8 @@
 package message
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 var _ InternalMsgBuilder = internalMsgBuilder{}

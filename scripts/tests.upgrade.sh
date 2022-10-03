@@ -3,7 +3,7 @@ set -e
 
 # e.g.,
 # ./scripts/build.sh
-# ./scripts/tests.upgrade.sh 1.7.16 ./build/avalanchego
+# ./scripts/tests.upgrade.sh 1.7.16 ./build/qmallgo
 if ! [[ "$0" =~ scripts/tests.upgrade.sh ]]; then
   echo "must be run from repository root"
   exit 255
@@ -24,32 +24,32 @@ if [[ -z "${NEW_BINARY}" ]]; then
 fi
 
 #################################
-# download avalanchego
-# https://github.com/dim4egster/avalanchego/releases
+# download qmallgo
+# https://github.com/dim4egster/qmallgo/releases
 GOARCH=$(go env GOARCH)
 GOOS=$(go env GOOS)
-DOWNLOAD_URL=https://github.com/dim4egster/avalanchego/releases/download/v${VERSION}/avalanchego-linux-${GOARCH}-v${VERSION}.tar.gz
-DOWNLOAD_PATH=/tmp/avalanchego.tar.gz
+DOWNLOAD_URL=https://github.com/dim4egster/qmallgo/releases/download/v${VERSION}/qmallgo-linux-${GOARCH}-v${VERSION}.tar.gz
+DOWNLOAD_PATH=/tmp/qmallgo.tar.gz
 if [[ ${GOOS} == "darwin" ]]; then
-  DOWNLOAD_URL=https://github.com/dim4egster/avalanchego/releases/download/v${VERSION}/avalanchego-macos-v${VERSION}.zip
-  DOWNLOAD_PATH=/tmp/avalanchego.zip
+  DOWNLOAD_URL=https://github.com/dim4egster/qmallgo/releases/download/v${VERSION}/qmallgo-macos-v${VERSION}.zip
+  DOWNLOAD_PATH=/tmp/qmallgo.zip
 fi
 
 rm -f ${DOWNLOAD_PATH}
-rm -rf /tmp/avalanchego-v${VERSION}
-rm -rf /tmp/avalanchego-build
+rm -rf /tmp/qmallgo-v${VERSION}
+rm -rf /tmp/qmallgo-build
 
-echo "downloading avalanchego ${VERSION} at ${DOWNLOAD_URL}"
+echo "downloading qmallgo ${VERSION} at ${DOWNLOAD_URL}"
 curl -L ${DOWNLOAD_URL} -o ${DOWNLOAD_PATH}
 
-echo "extracting downloaded avalanchego"
+echo "extracting downloaded qmallgo"
 if [[ ${GOOS} == "linux" ]]; then
   tar xzvf ${DOWNLOAD_PATH} -C /tmp
 elif [[ ${GOOS} == "darwin" ]]; then
-  unzip ${DOWNLOAD_PATH} -d /tmp/avalanchego-build
-  mv /tmp/avalanchego-build/build /tmp/avalanchego-v${VERSION}
+  unzip ${DOWNLOAD_PATH} -d /tmp/qmallgo-build
+  mv /tmp/qmallgo-build/build /tmp/qmallgo-v${VERSION}
 fi
-find /tmp/avalanchego-v${VERSION}
+find /tmp/qmallgo-v${VERSION}
 
 #################################
 # download avalanche-network-runner
@@ -95,9 +95,9 @@ echo "running upgrade tests against the local cluster with ${NEW_BINARY}"
 --ginkgo.v \
 --log-level debug \
 --network-runner-grpc-endpoint="0.0.0.0:12340" \
---network-runner-avalanchego-path=/tmp/avalanchego-v${VERSION}/avalanchego \
---network-runner-avalanchego-path-to-upgrade=${NEW_BINARY} \
---network-runner-avalanchego-log-level="WARN" || EXIT_CODE=$?
+--network-runner-qmallgo-path=/tmp/qmallgo-v${VERSION}/qmallgo \
+--network-runner-qmallgo-path-to-upgrade=${NEW_BINARY} \
+--network-runner-qmallgo-log-level="WARN" || EXIT_CODE=$?
 
 # "e2e.test" already terminates the cluster
 # just in case tests are aborted, manually terminate them again

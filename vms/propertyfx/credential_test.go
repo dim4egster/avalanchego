@@ -6,7 +6,7 @@ package propertyfx
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
 )
 
 func TestCredentialState(t *testing.T) {

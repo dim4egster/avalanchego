@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/message"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/message"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 func TestBlockingMessageQueue(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dim4egster/avalanchego/utils/units"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/utils/units"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 const (

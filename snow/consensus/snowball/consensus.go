@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Consensus represents a general snow instance that can be used directly to

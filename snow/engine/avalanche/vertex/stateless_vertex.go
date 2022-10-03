@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
 )
 
 const (

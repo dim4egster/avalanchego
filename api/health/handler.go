@@ -10,8 +10,8 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/dim4egster/avalanchego/utils/json"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/json"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 // NewGetAndPostHandler returns a health handler that supports GET and jsonrpc

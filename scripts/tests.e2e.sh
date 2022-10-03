@@ -5,8 +5,8 @@ set -o pipefail
 
 # e.g.,
 # ./scripts/build.sh
-# ./scripts/tests.e2e.sh ./build/avalanchego
-# ENABLE_WHITELIST_VTX_TESTS=true ./scripts/tests.e2e.sh ./build/avalanchego
+# ./scripts/tests.e2e.sh ./build/qmallgo
+# ENABLE_WHITELIST_VTX_TESTS=true ./scripts/tests.e2e.sh ./build/qmallgo
 if ! [[ "$0" =~ scripts/tests.e2e.sh ]]; then
   echo "must be run from repository root"
   exit 255
@@ -90,8 +90,8 @@ echo "running e2e tests against the local cluster with ${AVALANCHEGO_PATH}"
 --ginkgo.v \
 --log-level debug \
 --network-runner-grpc-endpoint="0.0.0.0:12342" \
---network-runner-avalanchego-path=${AVALANCHEGO_PATH} \
---network-runner-avalanchego-log-level="WARN" \
+--network-runner-qmallgo-path=${AVALANCHEGO_PATH} \
+--network-runner-qmallgo-log-level="WARN" \
 --test-keys-file=tests/test.insecure.secp256k1.keys \
 --enable-whitelist-vtx-tests=${ENABLE_WHITELIST_VTX_TESTS} \
 && EXIT_CODE=$? || EXIT_CODE=$?

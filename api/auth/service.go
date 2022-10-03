@@ -6,7 +6,7 @@ package auth
 import (
 	"net/http"
 
-	"github.com/dim4egster/avalanchego/api"
+	"github.com/dim4egster/qmallgo/api"
 )
 
 // Service that serves the Auth API functionality.

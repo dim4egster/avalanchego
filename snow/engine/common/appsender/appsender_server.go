@@ -8,10 +8,10 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
 
-	appsenderpb "github.com/dim4egster/avalanchego/proto/pb/appsender"
+	appsenderpb "github.com/dim4egster/qmallgo/proto/pb/appsender"
 )
 
 var _ appsenderpb.AppSenderServer = &Server{}

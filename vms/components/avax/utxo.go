@@ -6,7 +6,7 @@ package avax
 import (
 	"errors"
 
-	"github.com/dim4egster/avalanchego/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
 )
 
 var (

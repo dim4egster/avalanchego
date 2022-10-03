@@ -8,12 +8,12 @@ import (
 
 	stdatomic "sync/atomic"
 
-	"github.com/dim4egster/avalanchego/chains/atomic"
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/units"
+	"github.com/dim4egster/qmallgo/chains/atomic"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/units"
 
-	sharedmemorypb "github.com/dim4egster/avalanchego/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/dim4egster/qmallgo/proto/pb/sharedmemory"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	readerpb "github.com/dim4egster/avalanchego/proto/pb/io/reader"
+	readerpb "github.com/dim4egster/qmallgo/proto/pb/io/reader"
 )
 
 var _ io.Reader = &Client{}

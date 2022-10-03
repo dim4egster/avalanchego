@@ -16,7 +16,7 @@ import (
 	"github.com/onsi/gomega"
 
 	runner_sdk "github.com/ava-labs/avalanche-network-runner-sdk"
-	"github.com/dim4egster/avalanchego/tests"
+	"github.com/dim4egster/qmallgo/tests"
 )
 
 func TestUpgrade(t *testing.T) {
@@ -47,21 +47,21 @@ func init() {
 	)
 	flag.StringVar(
 		&networkRunnerAvalancheGoExecPath,
-		"network-runner-avalanchego-path",
+		"network-runner-qmallgo-path",
 		"",
-		"avalanchego executable path",
+		"qmallgo executable path",
 	)
 	flag.StringVar(
 		&networkRunnerAvalancheGoExecPathToUpgrade,
-		"network-runner-avalanchego-path-to-upgrade",
+		"network-runner-qmallgo-path-to-upgrade",
 		"",
-		"avalanchego executable path (to upgrade to, only required for upgrade tests with local network-runner)",
+		"qmallgo executable path (to upgrade to, only required for upgrade tests with local network-runner)",
 	)
 	flag.StringVar(
 		&networkRunnerAvalancheGoLogLevel,
-		"network-runner-avalanchego-log-level",
+		"network-runner-qmallgo-log-level",
 		"INFO",
-		"avalanchego log-level",
+		"qmallgo log-level",
 	)
 }
 

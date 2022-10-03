@@ -12,17 +12,17 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/dim4egster/avalanchego/app"
-	"github.com/dim4egster/avalanchego/app/process"
-	"github.com/dim4egster/avalanchego/node"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/app"
+	"github.com/dim4egster/qmallgo/app/process"
+	"github.com/dim4egster/qmallgo/node"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 
-	appplugin "github.com/dim4egster/avalanchego/app/plugin"
+	appplugin "github.com/dim4egster/qmallgo/app/plugin"
 )
 
 // Run an AvalancheGo node.
 // If specified in the config, serves a hashicorp plugin that can be consumed by
-// the daemon (see avalanchego/main).
+// the daemon (see qmallgo/main).
 func Run(config Config, nodeConfig node.Config) {
 	nodeApp := process.NewApp(nodeConfig) // Create node wrapper
 	if config.PluginMode {                // Serve as a plugin

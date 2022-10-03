@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 var (

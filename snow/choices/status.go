@@ -6,7 +6,7 @@ package choices
 import (
 	"errors"
 
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 )
 
 var errUnknownStatus = errors.New("unknown status")

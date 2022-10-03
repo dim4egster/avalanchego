@@ -5,10 +5,10 @@ package mocks
 import (
 	context "context"
 
-	health "github.com/dim4egster/avalanchego/api/health"
+	health "github.com/dim4egster/qmallgo/api/health"
 	mock "github.com/stretchr/testify/mock"
 
-	rpc "github.com/dim4egster/avalanchego/utils/rpc"
+	rpc "github.com/dim4egster/qmallgo/utils/rpc"
 
 	time "time"
 )

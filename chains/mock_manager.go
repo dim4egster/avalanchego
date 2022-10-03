@@ -4,8 +4,8 @@
 package chains
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/networking/router"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/networking/router"
 )
 
 var _ Manager = MockManager{}

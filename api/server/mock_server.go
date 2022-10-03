@@ -10,10 +10,10 @@ import (
 	sync "sync"
 	time "time"
 
-	ids "github.com/dim4egster/avalanchego/ids"
-	snow "github.com/dim4egster/avalanchego/snow"
-	common "github.com/dim4egster/avalanchego/snow/engine/common"
-	logging "github.com/dim4egster/avalanchego/utils/logging"
+	ids "github.com/dim4egster/qmallgo/ids"
+	snow "github.com/dim4egster/qmallgo/snow"
+	common "github.com/dim4egster/qmallgo/snow/engine/common"
+	logging "github.com/dim4egster/qmallgo/utils/logging"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -3,7 +3,7 @@
 
 package metervm
 
-import "github.com/dim4egster/avalanchego/snow/consensus/snowman"
+import "github.com/dim4egster/qmallgo/snow/consensus/snowman"
 
 var (
 	_ snowman.Block       = &meterBlock{}

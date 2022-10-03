@@ -4,8 +4,8 @@
 package txs
 
 import (
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/vms/platformvm/fx"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/vms/platformvm/fx"
 )
 
 var _ UnsignedTx = &CreateSubnetTx{}

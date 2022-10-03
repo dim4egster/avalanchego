@@ -6,8 +6,8 @@ package avm
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/vms"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/vms"
 )
 
 var _ vms.Factory = &Factory{}

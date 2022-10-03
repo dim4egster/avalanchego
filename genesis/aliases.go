@@ -6,13 +6,13 @@ package genesis
 import (
 	"path"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/vms/nftfx"
-	"github.com/dim4egster/avalanchego/vms/platformvm/genesis"
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
-	"github.com/dim4egster/avalanchego/vms/propertyfx"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/vms/nftfx"
+	"github.com/dim4egster/qmallgo/vms/platformvm/genesis"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/propertyfx"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
 )
 
 // Aliases returns the default aliases based on the network ID

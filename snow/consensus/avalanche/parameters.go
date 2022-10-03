@@ -6,7 +6,7 @@ package avalanche
 import (
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/snow/consensus/snowball"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowball"
 )
 
 // Parameters the avalanche parameters include the snowball parameters and the

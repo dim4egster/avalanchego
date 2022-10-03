@@ -13,22 +13,22 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/api/server"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/database/versiondb"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowstorm"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/api/server"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/database/versiondb"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowstorm"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/utils"
+	"github.com/dim4egster/qmallgo/utils/logging"
 
-	avengmocks "github.com/dim4egster/avalanchego/snow/engine/avalanche/mocks"
-	avvtxmocks "github.com/dim4egster/avalanchego/snow/engine/avalanche/vertex/mocks"
-	smblockmocks "github.com/dim4egster/avalanchego/snow/engine/snowman/block/mocks"
-	smengmocks "github.com/dim4egster/avalanchego/snow/engine/snowman/mocks"
+	avengmocks "github.com/dim4egster/qmallgo/snow/engine/avalanche/mocks"
+	avvtxmocks "github.com/dim4egster/qmallgo/snow/engine/avalanche/vertex/mocks"
+	smblockmocks "github.com/dim4egster/qmallgo/snow/engine/snowman/block/mocks"
+	smengmocks "github.com/dim4egster/qmallgo/snow/engine/snowman/mocks"
 )
 
 var _ server.PathAdder = &apiServerMock{}

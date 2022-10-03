@@ -11,9 +11,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/qmallgo/database"
 
-	rpcdbpb "github.com/dim4egster/avalanchego/proto/pb/rpcdb"
+	rpcdbpb "github.com/dim4egster/qmallgo/proto/pb/rpcdb"
 )
 
 var errUnknownIterator = errors.New("unknown iterator")

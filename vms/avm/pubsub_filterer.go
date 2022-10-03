@@ -4,10 +4,10 @@
 package avm
 
 import (
-	"github.com/dim4egster/avalanchego/api"
-	"github.com/dim4egster/avalanchego/pubsub"
-	"github.com/dim4egster/avalanchego/vms/avm/txs"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
+	"github.com/dim4egster/qmallgo/api"
+	"github.com/dim4egster/qmallgo/pubsub"
+	"github.com/dim4egster/qmallgo/vms/avm/txs"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
 )
 
 var _ pubsub.Filterer = &filterer{}

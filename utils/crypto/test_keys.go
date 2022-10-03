@@ -4,7 +4,7 @@
 package crypto
 
 import (
-	"github.com/dim4egster/avalanchego/utils/cb58"
+	"github.com/dim4egster/qmallgo/utils/cb58"
 )
 
 func BuildTestKeys() []*PrivateKeySECP256K1R {

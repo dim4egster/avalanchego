@@ -6,7 +6,7 @@ package state
 import (
 	"container/heap"
 
-	"github.com/dim4egster/avalanchego/vms/platformvm/txs"
+	"github.com/dim4egster/qmallgo/vms/platformvm/txs"
 )
 
 var (

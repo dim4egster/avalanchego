@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/dim4egster/avalanchego/tests/e2e"
+	"github.com/dim4egster/qmallgo/tests/e2e"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"

@@ -7,7 +7,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Hashmap provides an O(1) mapping from a comparable key to any value.

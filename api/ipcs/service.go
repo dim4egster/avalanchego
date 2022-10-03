@@ -10,14 +10,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/dim4egster/avalanchego/api"
-	"github.com/dim4egster/avalanchego/api/server"
-	"github.com/dim4egster/avalanchego/chains"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/ipcs"
-	"github.com/dim4egster/avalanchego/snow/engine/common"
-	"github.com/dim4egster/avalanchego/utils/json"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/api"
+	"github.com/dim4egster/qmallgo/api/server"
+	"github.com/dim4egster/qmallgo/chains"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/ipcs"
+	"github.com/dim4egster/qmallgo/snow/engine/common"
+	"github.com/dim4egster/qmallgo/utils/json"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 // IPCServer maintains the IPCs

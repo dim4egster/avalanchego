@@ -3,7 +3,7 @@
 
 package mempool
 
-import "github.com/dim4egster/avalanchego/vms/platformvm/txs"
+import "github.com/dim4egster/qmallgo/vms/platformvm/txs"
 
 var _ txs.Visitor = &remover{}
 

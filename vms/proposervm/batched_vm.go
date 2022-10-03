@@ -6,14 +6,14 @@ package proposervm
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/choices"
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/choices"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/utils/wrappers"
 
-	statelessblock "github.com/dim4egster/avalanchego/vms/proposervm/block"
+	statelessblock "github.com/dim4egster/qmallgo/vms/proposervm/block"
 )
 
 var _ block.BatchedChainVM = &VM{}

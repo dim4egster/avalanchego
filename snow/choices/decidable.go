@@ -4,7 +4,7 @@
 package choices
 
 import (
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 // Decidable represents element that can be decided.

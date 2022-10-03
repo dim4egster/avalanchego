@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 	"github.com/golang/mock/gomock"
 )
 

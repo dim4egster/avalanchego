@@ -4,8 +4,8 @@
 package proposervm
 
 import (
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/vms/proposervm/summary"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/vms/proposervm/summary"
 )
 
 var _ block.StateSummary = &stateSummary{}

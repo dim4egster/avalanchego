@@ -7,17 +7,17 @@ import (
 	"context"
 	"time"
 
-	"github.com/dim4egster/avalanchego/api"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/crypto"
-	"github.com/dim4egster/avalanchego/utils/formatting"
-	"github.com/dim4egster/avalanchego/utils/formatting/address"
-	"github.com/dim4egster/avalanchego/utils/json"
-	"github.com/dim4egster/avalanchego/utils/rpc"
-	"github.com/dim4egster/avalanchego/vms/platformvm/status"
+	"github.com/dim4egster/qmallgo/api"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/crypto"
+	"github.com/dim4egster/qmallgo/utils/formatting"
+	"github.com/dim4egster/qmallgo/utils/formatting/address"
+	"github.com/dim4egster/qmallgo/utils/json"
+	"github.com/dim4egster/qmallgo/utils/rpc"
+	"github.com/dim4egster/qmallgo/vms/platformvm/status"
 
-	platformapi "github.com/dim4egster/avalanchego/vms/platformvm/api"
+	platformapi "github.com/dim4egster/qmallgo/vms/platformvm/api"
 )
 
 var _ Client = &client{}

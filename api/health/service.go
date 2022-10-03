@@ -6,7 +6,7 @@ package health
 import (
 	"net/http"
 
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 type Service struct {

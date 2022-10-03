@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/staking"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/staking"
 )
 
 func TestBuild(t *testing.T) {

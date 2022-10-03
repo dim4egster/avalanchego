@@ -6,7 +6,7 @@ package pubsub
 import (
 	"sync"
 
-	"github.com/dim4egster/avalanchego/utils/bloom"
+	"github.com/dim4egster/qmallgo/utils/bloom"
 )
 
 type FilterParam struct {

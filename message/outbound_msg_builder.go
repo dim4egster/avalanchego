@@ -6,8 +6,8 @@ package message
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/utils/ips"
 )
 
 var _ OutboundMsgBuilder = &outMsgBuilderWithPacker{}

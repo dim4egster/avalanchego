@@ -6,9 +6,9 @@ package throttling
 import (
 	"sync"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow/validators"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/snow/validators"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 // Used by the sybil-safe inbound and outbound message throttlers

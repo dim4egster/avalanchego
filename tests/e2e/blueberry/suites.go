@@ -11,16 +11,16 @@ import (
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 
-	"github.com/dim4egster/avalanchego/genesis"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/tests"
-	"github.com/dim4egster/avalanchego/tests/e2e"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/units"
-	"github.com/dim4egster/avalanchego/vms/components/avax"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
-	"github.com/dim4egster/avalanchego/wallet/subnet/primary"
+	"github.com/dim4egster/qmallgo/genesis"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/tests"
+	"github.com/dim4egster/qmallgo/tests/e2e"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/units"
+	"github.com/dim4egster/qmallgo/vms/components/avax"
+	"github.com/dim4egster/qmallgo/vms/components/verify"
+	"github.com/dim4egster/qmallgo/vms/secp256k1fx"
+	"github.com/dim4egster/qmallgo/wallet/subnet/primary"
 )
 
 var _ = e2e.DescribeLocal("[Blueberry]", func() {

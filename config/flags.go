@@ -16,12 +16,12 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/dim4egster/avalanchego/database/leveldb"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/genesis"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/ulimit"
-	"github.com/dim4egster/avalanchego/utils/units"
+	"github.com/dim4egster/qmallgo/database/leveldb"
+	"github.com/dim4egster/qmallgo/database/memdb"
+	"github.com/dim4egster/qmallgo/genesis"
+	"github.com/dim4egster/qmallgo/utils/constants"
+	"github.com/dim4egster/qmallgo/utils/ulimit"
+	"github.com/dim4egster/qmallgo/utils/units"
 )
 
 const (
@@ -34,7 +34,7 @@ const (
 
 var (
 	// [defaultUnexpandedDataDir] will be expanded when reading the flags
-	defaultDataDir              = filepath.Join("$HOME", ".avalanchego")
+	defaultDataDir              = filepath.Join("$HOME", ".qmallgo")
 	defaultDBDir                = filepath.Join(defaultUnexpandedDataDir, "db")
 	defaultLogDir               = filepath.Join(defaultUnexpandedDataDir, "logs")
 	defaultProfileDir           = filepath.Join(defaultUnexpandedDataDir, "profiles")
@@ -361,7 +361,7 @@ func addNodeFlags(fs *flag.FlagSet) {
 	fs.Float64(DiskMaxNonVdrNodeUsageKey, 1000*units.GiB, "Maximum number of disk reads/writes per second that a non-validator can utilize. Must be >= 0")
 }
 
-// BuildFlagSet returns a complete set of flags for avalanchego
+// BuildFlagSet returns a complete set of flags for qmallgo
 func BuildFlagSet() *flag.FlagSet {
 	// TODO parse directly into a *pflag.FlagSet instead of into a *flag.FlagSet
 	// and then putting those into a *plag.FlagSet

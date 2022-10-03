@@ -4,8 +4,8 @@
 package vertex
 
 import (
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/snow/consensus/avalanche"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 // Parser parses bytes into a vertex.

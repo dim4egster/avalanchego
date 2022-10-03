@@ -6,8 +6,8 @@ package executor
 import (
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/snow/consensus/snowman"
-	"github.com/dim4egster/avalanchego/vms/platformvm/blocks"
+	"github.com/dim4egster/qmallgo/snow/consensus/snowman"
+	"github.com/dim4egster/qmallgo/vms/platformvm/blocks"
 )
 
 var _ blocks.Visitor = &verifier{}

@@ -6,7 +6,7 @@ package linearcodec
 import (
 	"testing"
 
-	"github.com/dim4egster/avalanchego/codec"
+	"github.com/dim4egster/qmallgo/codec"
 )
 
 func TestVectors(t *testing.T) {

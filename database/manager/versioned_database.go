@@ -6,8 +6,8 @@ package manager
 import (
 	"sort"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/version"
 )
 
 type VersionedDatabase struct {

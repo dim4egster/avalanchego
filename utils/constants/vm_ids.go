@@ -3,7 +3,7 @@
 
 package constants
 
-import "github.com/dim4egster/avalanchego/ids"
+import "github.com/dim4egster/qmallgo/ids"
 
 var (
 	PlatformVMID = ids.ID{'p', 'l', 'a', 't', 'f', 'o', 'r', 'm', 'v', 'm'}

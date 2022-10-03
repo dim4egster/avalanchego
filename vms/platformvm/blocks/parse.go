@@ -4,7 +4,7 @@
 package blocks
 
 import (
-	"github.com/dim4egster/avalanchego/codec"
+	"github.com/dim4egster/qmallgo/codec"
 )
 
 func Parse(c codec.Manager, b []byte) (Block, error) {

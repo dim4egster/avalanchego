@@ -4,7 +4,7 @@
 package atomic
 
 import (
-	"github.com/dim4egster/avalanchego/database"
+	"github.com/dim4egster/qmallgo/database"
 )
 
 // WriteAll writes all of the batches to the underlying database of baseBatch.

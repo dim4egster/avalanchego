@@ -10,14 +10,14 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/dim4egster/avalanchego/snow/engine/snowman/block"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
+	"github.com/dim4egster/qmallgo/snow/engine/snowman/block"
+	"github.com/dim4egster/qmallgo/vms/rpcchainvm/grpcutils"
 
-	vmpb "github.com/dim4egster/avalanchego/proto/pb/vm"
+	vmpb "github.com/dim4egster/qmallgo/proto/pb/vm"
 )
 
 // protocolVersion should be bumped anytime changes are made which require
-// the plugin vm to upgrade to latest avalanchego release to be compatible.
+// the plugin vm to upgrade to latest qmallgo release to be compatible.
 const protocolVersion = 16
 
 var (

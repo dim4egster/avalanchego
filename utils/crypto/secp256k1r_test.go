@@ -11,8 +11,8 @@ import (
 
 	secp256k1 "github.com/decred/dcrd/dcrec/secp256k1/v3"
 
-	"github.com/dim4egster/avalanchego/cache"
-	"github.com/dim4egster/avalanchego/utils/hashing"
+	"github.com/dim4egster/qmallgo/cache"
+	"github.com/dim4egster/qmallgo/utils/hashing"
 )
 
 func TestRecover(t *testing.T) {

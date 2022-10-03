@@ -13,14 +13,14 @@ coreth_path="$GOPATH/pkg/mod/github.com/dim4egster/coreth@$coreth_version"
 
 # Where AvalancheGo binary goes
 build_dir="$AVALANCHE_PATH/build"
-avalanchego_path="$build_dir/avalanchego"
+avalanchego_path="$build_dir/qmallgo"
 plugin_dir="$build_dir/plugins"
 evm_path="$plugin_dir/evm"
 
 # Avalabs docker hub
-# avaplatform/avalanchego - defaults to local as to avoid unintentional pushes
-# You should probably set it - export DOCKER_REPO='avaplatform/avalanchego'
-avalanchego_dockerhub_repo=${DOCKER_REPO:-"avalanchego"}
+# avaplatform/qmallgo - defaults to local as to avoid unintentional pushes
+# You should probably set it - export DOCKER_REPO='avaplatform/qmallgo'
+avalanchego_dockerhub_repo=${DOCKER_REPO:-"qmallgo"}
 
 # Current branch
 # TODO: fix "fatal: No names found, cannot describe anything" in github CI

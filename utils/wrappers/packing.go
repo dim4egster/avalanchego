@@ -9,8 +9,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/dim4egster/avalanchego/utils/hashing"
-	"github.com/dim4egster/avalanchego/utils/ips"
+	"github.com/dim4egster/qmallgo/utils/hashing"
+	"github.com/dim4egster/qmallgo/utils/ips"
 )
 
 const (

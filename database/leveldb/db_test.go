@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/utils/logging"
+	"github.com/dim4egster/qmallgo/database"
+	"github.com/dim4egster/qmallgo/utils/logging"
 )
 
 func TestInterface(t *testing.T) {

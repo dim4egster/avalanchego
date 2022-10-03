@@ -6,7 +6,7 @@ package poll
 import (
 	"fmt"
 
-	"github.com/dim4egster/avalanchego/ids"
+	"github.com/dim4egster/qmallgo/ids"
 )
 
 type earlyTermNoTraversalFactory struct {

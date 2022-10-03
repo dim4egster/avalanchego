@@ -6,8 +6,8 @@ package message
 import (
 	"time"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/proto/pb/p2p"
+	"github.com/dim4egster/qmallgo/ids"
+	"github.com/dim4egster/qmallgo/proto/pb/p2p"
 )
 
 var _ InboundMsgBuilder = &inMsgBuilderWithProto{}
