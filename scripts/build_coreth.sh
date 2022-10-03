@@ -33,4 +33,4 @@ go build -ldflags "-X github.com/dim4egster/coreth/plugin/evm.Version=$coreth_ve
 cd "$AVALANCHE_PATH"
 
 # Building coreth + using go get can mess with the go.mod file.
-go mod tidy -compat=1.17
+go mod tidy -compat=1.18

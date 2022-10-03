@@ -1,4 +1,4 @@
-// Copyright (C) 2019-2021, Ava Labs, Inc. All rights reserved.
+// Copyright (C) 2019-2022, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package rpcdb
@@ -8,17 +8,17 @@ import (
 	"net"
 	"testing"
 
+	"github.com/stretchr/testify/require"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/ava-labs/avalanchego/database"
+	"github.com/ava-labs/avalanchego/database/corruptabledb"
+	"github.com/ava-labs/avalanchego/database/memdb"
+	"github.com/ava-labs/avalanchego/vms/rpcchainvm/grpcutils"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/corruptabledb"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/vms/rpcchainvm/grpcutils"
-
-	rpcdbpb "github.com/dim4egster/avalanchego/proto/pb/rpcdb"
+	rpcdbpb "github.com/ava-labs/avalanchego/proto/pb/rpcdb"
 )
 
 const (
@@ -91,7 +91,7 @@ func BenchmarkInterface(b *testing.B) {
 }
 
 func TestHealthCheck(t *testing.T) {
-	assert := assert.New(t)
+	require := require.New(t)
 
 	scenarios := []struct {
 		name         string
@@ -122,7 +122,7 @@ func TestHealthCheck(t *testing.T) {
 			baseDB := setupDB(t)
 			db := corruptabledb.New(baseDB.server)
 			defer db.Close()
-			assert.NoError(scenario.testFn(db))
+			require.NoError(scenario.testFn(db))
 
 			// check db HealthCheck
 			_, err := db.HealthCheck()
@@ -131,10 +131,10 @@ func TestHealthCheck(t *testing.T) {
 				return
 			}
 			if scenario.wantErr {
-				assert.Containsf(err.Error(), scenario.wantErrMsg, "expected error containing %q, got %s", scenario.wantErrMsg, err)
+				require.Containsf(err.Error(), scenario.wantErrMsg, "expected error containing %q, got %s", scenario.wantErrMsg, err)
 				return
 			}
-			assert.Nil(err)
+			require.Nil(err)
 
 			// check rpc HealthCheck
 			_, err = baseDB.client.HealthCheck()
@@ -143,10 +143,10 @@ func TestHealthCheck(t *testing.T) {
 				return
 			}
 			if scenario.wantErr {
-				assert.Containsf(err.Error(), scenario.wantErrMsg, "expected error containing %q, got %s", scenario.wantErrMsg, err)
+				require.Containsf(err.Error(), scenario.wantErrMsg, "expected error containing %q, got %s", scenario.wantErrMsg, err)
 				return
 			}
-			assert.Nil(err)
+			require.Nil(err)
 		})
 	}
 }

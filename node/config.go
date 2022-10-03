@@ -1,4 +1,4 @@
-// Copyright (C) 2019-2021, Ava Labs, Inc. All rights reserved.
+// Copyright (C) 2019-2022, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package node
@@ -7,22 +7,23 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/dim4egster/avalanchego/chains"
-	"github.com/dim4egster/avalanchego/genesis"
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/nat"
-	"github.com/dim4egster/avalanchego/network"
-	"github.com/dim4egster/avalanchego/snow/consensus/avalanche"
-	"github.com/dim4egster/avalanchego/snow/networking/benchlist"
-	"github.com/dim4egster/avalanchego/snow/networking/router"
-	"github.com/dim4egster/avalanchego/snow/networking/sender"
-	"github.com/dim4egster/avalanchego/snow/networking/tracker"
-	"github.com/dim4egster/avalanchego/utils/dynamicip"
-	"github.com/dim4egster/avalanchego/utils/ips"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/profiler"
-	"github.com/dim4egster/avalanchego/utils/timer"
-	"github.com/dim4egster/avalanchego/vms"
+	"github.com/ava-labs/avalanchego/chains"
+	"github.com/ava-labs/avalanchego/genesis"
+	"github.com/ava-labs/avalanchego/ids"
+	"github.com/ava-labs/avalanchego/nat"
+	"github.com/ava-labs/avalanchego/network"
+	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
+	"github.com/ava-labs/avalanchego/snow/networking/benchlist"
+	"github.com/ava-labs/avalanchego/snow/networking/router"
+	"github.com/ava-labs/avalanchego/snow/networking/sender"
+	"github.com/ava-labs/avalanchego/snow/networking/tracker"
+	"github.com/ava-labs/avalanchego/utils/crypto/bls"
+	"github.com/ava-labs/avalanchego/utils/dynamicip"
+	"github.com/ava-labs/avalanchego/utils/ips"
+	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ava-labs/avalanchego/utils/profiler"
+	"github.com/ava-labs/avalanchego/utils/timer"
+	"github.com/ava-labs/avalanchego/vms"
 )
 
 type IPCConfig struct {
@@ -83,9 +84,11 @@ type StakingConfig struct {
 	genesis.StakingConfig
 	EnableStaking         bool            `json:"enableStaking"`
 	StakingTLSCert        tls.Certificate `json:"-"`
+	StakingSigningKey     *bls.SecretKey  `json:"-"`
 	DisabledStakingWeight uint64          `json:"disabledStakingWeight"`
 	StakingKeyPath        string          `json:"stakingKeyPath"`
 	StakingCertPath       string          `json:"stakingCertPath"`
+	StakingSignerPath     string          `json:"stakingSignerPath"`
 }
 
 type StateSyncConfig struct {
@@ -100,7 +103,7 @@ type BootstrapConfig struct {
 	// Max number of times to retry bootstrap before warning the node operator
 	RetryBootstrapWarnFrequency int `json:"retryBootstrapWarnFrequency"`
 
-	// Timeout when connecting to bootstrapping beacons
+	// Timeout before emitting a warn log when connecting to bootstrapping beacons
 	BootstrapBeaconConnectionTimeout time.Duration `json:"bootstrapBeaconConnectionTimeout"`
 
 	// Max number of containers in an ancestors message sent by this node.
@@ -148,9 +151,6 @@ type Config struct {
 
 	// Assertions configuration
 	EnableAssertions bool `json:"enableAssertions"`
-
-	// Crypto configuration
-	EnableCrypto bool `json:"enableCrypto"`
 
 	// Health
 	HealthCheckFreq time.Duration `json:"healthCheckFreq"`

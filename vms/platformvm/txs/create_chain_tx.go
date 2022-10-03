@@ -1,4 +1,4 @@
-// Copyright (C) 2019-2021, Ava Labs, Inc. All rights reserved.
+// Copyright (C) 2019-2022, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package txs
@@ -7,12 +7,11 @@ import (
 	"errors"
 	"unicode"
 
-	"github.com/dim4egster/avalanchego/ids"
-	"github.com/dim4egster/avalanchego/snow"
-	"github.com/dim4egster/avalanchego/utils/constants"
-	"github.com/dim4egster/avalanchego/utils/units"
-	"github.com/dim4egster/avalanchego/vms/components/verify"
-	"github.com/dim4egster/avalanchego/vms/secp256k1fx"
+	"github.com/ava-labs/avalanchego/ids"
+	"github.com/ava-labs/avalanchego/snow"
+	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/ava-labs/avalanchego/vms/components/verify"
 )
 
 const (
@@ -21,8 +20,7 @@ const (
 )
 
 var (
-	_ UnsignedTx             = &CreateChainTx{}
-	_ secp256k1fx.UnsignedTx = &CreateChainTx{}
+	_ UnsignedTx = &CreateChainTx{}
 
 	ErrCantValidatePrimaryNetwork = errors.New("new blockchain can't be validated by primary network")
 

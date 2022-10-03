@@ -1,4 +1,4 @@
-// Copyright (C) 2019-2021, Ava Labs, Inc. All rights reserved.
+// Copyright (C) 2019-2022, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package manager
@@ -12,17 +12,16 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/dim4egster/avalanchego/database"
-	"github.com/dim4egster/avalanchego/database/corruptabledb"
-	"github.com/dim4egster/avalanchego/database/leveldb"
-	"github.com/dim4egster/avalanchego/database/memdb"
-	"github.com/dim4egster/avalanchego/database/meterdb"
-	"github.com/dim4egster/avalanchego/database/prefixdb"
-	"github.com/dim4egster/avalanchego/database/rocksdb"
-	"github.com/dim4egster/avalanchego/utils"
-	"github.com/dim4egster/avalanchego/utils/logging"
-	"github.com/dim4egster/avalanchego/utils/wrappers"
-	"github.com/dim4egster/avalanchego/version"
+	"github.com/ava-labs/avalanchego/database"
+	"github.com/ava-labs/avalanchego/database/corruptabledb"
+	"github.com/ava-labs/avalanchego/database/leveldb"
+	"github.com/ava-labs/avalanchego/database/memdb"
+	"github.com/ava-labs/avalanchego/database/meterdb"
+	"github.com/ava-labs/avalanchego/database/prefixdb"
+	"github.com/ava-labs/avalanchego/utils"
+	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/ava-labs/avalanchego/version"
 )
 
 var (
@@ -72,29 +71,6 @@ type manager struct {
 	// descending order
 	// invariant: len(databases) > 0
 	databases []*VersionedDatabase
-}
-
-// NewRocksDB creates a database manager of rocksDBs at [filePath] by creating a
-// database instance from each directory with a version <= [currentVersion]. If
-// [includePreviousVersions], opens previous database versions and includes them
-// in the returned Manager.
-func NewRocksDB(
-	dbDirPath string,
-	dbConfig []byte,
-	log logging.Logger,
-	currentVersion *version.Semantic,
-	namespace string,
-	reg prometheus.Registerer,
-) (Manager, error) {
-	return new(
-		rocksdb.New,
-		dbDirPath,
-		dbConfig,
-		log,
-		currentVersion,
-		namespace,
-		reg,
-	)
 }
 
 // NewLevelDB creates a database manager of levelDBs at [filePath] by creating a
