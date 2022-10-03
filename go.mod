@@ -1,57 +1,52 @@
-module github.com/dim4egster/avalanchego
+module github.com/dim4egster/qmall
 
-// Changes to the minimum golang version must also be replicated in
-// scripts/build_avalanche.sh
-// scripts/local.Dockerfile
-// Dockerfile
-// README.md
-// go.mod (here, only major.minor can be specified)
 go 1.18
 
 require (
-	github.com/Microsoft/go-winio v0.5.2
+	github.com/Microsoft/go-winio v0.6.0
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/ava-labs/avalanche-network-runner-sdk v0.2.0
 	github.com/btcsuite/btcd v0.23.1
 	github.com/btcsuite/btcd/btcutil v1.1.2
 	github.com/decred/dcrd/dcrec/secp256k1/v3 v3.0.0
+	github.com/dim4egster/avalanchego v1.9.0
 	github.com/dim4egster/coreth v0.10.0
-	github.com/golang-jwt/jwt v3.2.1+incompatible
+	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/mock v1.6.0
 	github.com/google/btree v1.1.2
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/rpc v1.2.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
-	github.com/hashicorp/go-hclog v1.2.2
-	github.com/hashicorp/go-plugin v1.4.4
+	github.com/hashicorp/go-hclog v1.3.1
+	github.com/hashicorp/go-plugin v1.4.5
 	github.com/holiman/bloomfilter/v2 v2.0.3
 	github.com/huin/goupnp v1.0.3
-	github.com/jackpal/gateway v1.0.6
+	github.com/jackpal/gateway v1.0.7
 	github.com/jackpal/go-nat-pmp v1.0.2
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	github.com/mr-tron/base58 v1.2.0
 	github.com/nbutton23/zxcvbn-go v0.0.0-20210217022336-fa2cb2858354
-	github.com/onsi/ginkgo/v2 v2.1.4
-	github.com/onsi/gomega v1.19.0
+	github.com/onsi/ginkgo/v2 v2.2.0
+	github.com/onsi/gomega v1.20.2
 	github.com/prometheus/client_golang v1.13.0
 	github.com/prometheus/client_model v0.2.0
 	github.com/rs/cors v1.8.2
 	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/spaolacci/murmur3 v1.1.0
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.12.0
+	github.com/spf13/viper v1.13.0
 	github.com/stretchr/testify v1.8.0
 	github.com/supranational/blst v0.3.11-0.20220920110316-f72618070295
 	github.com/syndtr/goleveldb v1.0.1-0.20220614013038-64ee5596c38a
-	go.uber.org/zap v1.22.0
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-	golang.org/x/net v0.0.0-20220812174116-3211cb980234
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
-	golang.org/x/term v0.0.0-20220722155259-a9ba230a4035
-	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9
-	gonum.org/v1/gonum v0.11.0
-	google.golang.org/genproto v0.0.0-20220815135757-37a418bb8959
+	go.uber.org/zap v1.23.0
+	golang.org/x/crypto v0.0.0-20220926161630-eccd6366d1be
+	golang.org/x/net v0.0.0-20221002022538-bcab6841153b
+	golang.org/x/sync v0.0.0-20220929204114-8fcdb60fdcc0
+	golang.org/x/term v0.0.0-20220919170432-7a66f970e087
+	golang.org/x/time v0.0.0-20220922220347-f3bd1da661af
+	gonum.org/v1/gonum v0.12.0
+	google.golang.org/genproto v0.0.0-20220930163606-c98284e70a91
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
@@ -82,6 +77,7 @@ require (
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/go-bexpr v0.1.11 // indirect
 	github.com/hashicorp/golang-lru v0.5.5-0.20210104140557-80c98217689d // indirect
@@ -102,7 +98,7 @@ require (
 	github.com/oklog/run v1.1.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
-	github.com/pelletier/go-toml/v2 v2.0.1 // indirect
+	github.com/pelletier/go-toml/v2 v2.0.5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
@@ -112,16 +108,18 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/status-im/keycard-go v0.0.0-20220804094519-059bc140cef1 // indirect
 	github.com/stretchr/objx v0.4.0 // indirect
-	github.com/subosito/gotenv v1.3.0 // indirect
+	github.com/subosito/gotenv v1.4.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.5 // indirect
 	github.com/tklauser/numcpus v0.2.2 // indirect
 	github.com/tyler-smith/go-bip39 v1.1.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
 	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
 	golang.org/x/text v0.3.7 // indirect
-	gopkg.in/ini.v1 v1.66.4 // indirect
+	golang.org/x/tools v0.1.12 // indirect
+	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/urfave/cli.v1 v1.20.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
