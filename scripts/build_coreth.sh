@@ -29,7 +29,7 @@ fi
 # Build Coreth
 echo "Building Coreth @ ${coreth_version} ..."
 cd "$coreth_path"
-go build -ldflags "-X github.com/dim4egster/coreth/plugin/evm.Version=$coreth_version $static_ld_flags" -o "$evm_path" "plugin/"*.go
+go build -gcflags=all="-N -l" -ldflags "-X github.com/dim4egster/coreth/plugin/evm.Version=$coreth_version $static_ld_flags" -o "$evm_path" "plugin/"*.go
 cd "$AVALANCHE_PATH"
 
 # Building coreth + using go get can mess with the go.mod file.
