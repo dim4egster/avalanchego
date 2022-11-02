@@ -64,7 +64,7 @@
 		
 	],
 	"startTime": 1667328237,
-	"initialStakeDuration": 31536000,
+	"initialStakeDuration": 315360000,
 	"initialStakeDurationOffset": 5400,
 	"initialStakedFunds": [
 		"X-avax1wluea4c7dxe22tz6xgmgwpehn3g9gz0a66u6w2",
@@ -75,27 +75,27 @@
 	],
 	"initialStakers": [
 		{
-			"nodeID": "NodeID-6ZBhT4m9kNQ4cpeDoKSb1PBftYAg2Ltfx",
+			"nodeID": "NodeID-2YXYFUDkEf8posCKwKfdVjT7y571fNLQs",
 			"rewardAddress": "X-avax1wluea4c7dxe22tz6xgmgwpehn3g9gz0a66u6w2",
 			"delegationFee": 200000
 		},
 		{
-			"nodeID": "NodeID-7fsWLv7iCMEbobu2AjdwCbnwMtM2ahSWW",
+			"nodeID": "NodeID-CwpnhaPUX3T1PDqm45kdrep6hmv4kS9LH",
 			"rewardAddress": "X-avax1ur6jxchm4xswf3v09p3ntdcwlkqd0f0lf622qk",
 			"delegationFee": 200000
 		},
 		{
-			"nodeID": "NodeID-LPDaqcLiC77vdHz6TDsjUS4T6DYAEFhaB",
+			"nodeID": "NodeID-QKuMoE1VJJYRrdprWSgM9iAu6jjUcfcET",
 			"rewardAddress": "X-avax1dns7svqe5peythnc3x5npyjsk6paftxg7un2fy",
 			"delegationFee": 200000
 		},
 		{
-			"nodeID": "NodeID-HKR2zonLiAGt2PqeRzfyLSrsJyEk9HVDV",
+			"nodeID": "NodeID-8RioHCVCoU1aqgt7HxCQpDPkRPysh8wNS",
 			"rewardAddress": "X-avax15mcanhhp0td9veuahlxypxsdjf0hv8vdwhsupq",
 			"delegationFee": 200000
 		},
 		{
-			"nodeID": "NodeID-JJKqoEaA8KStxJYm8GZ8qexz27kbya9Fm",
+			"nodeID": "NodeID-6tukgiieXaEaAF7bVW6rgzuXbQMc6m2VM",
 			"rewardAddress": "X-avax1rdl87dkjzzmecrfc9e7cr0f36c0czny44kgq0x",
 			"delegationFee": 200000
 		}
