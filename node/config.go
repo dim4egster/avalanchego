@@ -132,7 +132,7 @@ type DatabaseConfig struct {
 	Config []byte `json:"-"`
 }
 
-// Config contains all of the configurations of an Avalanche node.
+// Config contains all of the configurations of an Qmall node.
 type Config struct {
 	HTTPConfig          `json:"httpConfig"`
 	IPConfig            `json:"ipConfig"`

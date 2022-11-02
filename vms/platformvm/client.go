@@ -65,7 +65,7 @@ type Client interface {
 	GetCurrentValidators(ctx context.Context, subnetID ids.ID, nodeIDs []ids.NodeID, options ...rpc.Option) ([]ClientPermissionlessValidator, error)
 	// GetPendingValidators returns the list of pending validators for subnet with ID [subnetID]
 	GetPendingValidators(ctx context.Context, subnetID ids.ID, nodeIDs []ids.NodeID, options ...rpc.Option) ([]interface{}, []interface{}, error)
-	// GetCurrentSupply returns an upper bound on the supply of AVAX in the system
+	// GetCurrentSupply returns an upper bound on the supply of QMALL in the system
 	GetCurrentSupply(ctx context.Context, subnetID ids.ID, options ...rpc.Option) (uint64, error)
 	// SampleValidators returns the nodeIDs of a sample of [sampleSize] validators from the current validator set for subnet with ID [subnetID]
 	SampleValidators(ctx context.Context, subnetID ids.ID, sampleSize uint16, options ...rpc.Option) ([]ids.NodeID, error)
@@ -178,15 +178,15 @@ type Client interface {
 		freq time.Duration,
 		options ...rpc.Option,
 	) (*GetTxStatusResponse, error)
-	// GetStake returns the amount of nAVAX that [addrs] have cumulatively
+	// GetStake returns the amount of nQMALL that [addrs] have cumulatively
 	// staked on the Primary Network.
 	GetStake(ctx context.Context, addrs []ids.ShortID, options ...rpc.Option) (map[ids.ID]uint64, [][]byte, error)
-	// GetMinStake returns the minimum staking amount in nAVAX for validators
+	// GetMinStake returns the minimum staking amount in nQMALL for validators
 	// and delegators respectively
 	GetMinStake(ctx context.Context, subnetID ids.ID, options ...rpc.Option) (uint64, uint64, error)
-	// GetTotalStake returns the total amount (in nAVAX) staked on the network
+	// GetTotalStake returns the total amount (in nQMALL) staked on the network
 	GetTotalStake(ctx context.Context, subnetID ids.ID, options ...rpc.Option) (uint64, error)
-	// GetMaxStakeAmount returns the maximum amount of nAVAX staking to the named
+	// GetMaxStakeAmount returns the maximum amount of nQMALL staking to the named
 	// node during the time period.
 	GetMaxStakeAmount(
 		ctx context.Context,

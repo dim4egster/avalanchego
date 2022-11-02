@@ -297,7 +297,7 @@ type GetTxFeeResponse struct {
 	AddSubnetDelegatorFee         json.Uint64 `json:"addSubnetDelegatorFee"`
 }
 
-// GetTxFee returns the transaction fee in nAVAX.
+// GetTxFee returns the transaction fee in nQMALL.
 func (service *Info) GetTxFee(_ *http.Request, args *struct{}, reply *GetTxFeeResponse) error {
 	reply.TxFee = json.Uint64(service.TxFee)
 	reply.CreationTxFee = json.Uint64(service.CreateAssetTxFee)

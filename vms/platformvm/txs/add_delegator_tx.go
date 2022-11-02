@@ -90,7 +90,7 @@ func (tx *AddDelegatorTx) SyntacticVerify(ctx *snow.Context) error {
 
 		assetID := out.AssetID()
 		if assetID != ctx.AVAXAssetID {
-			return fmt.Errorf("stake output must be AVAX but is %q", assetID)
+			return fmt.Errorf("stake output must be QMALL but is %q", assetID)
 		}
 	}
 

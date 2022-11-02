@@ -79,7 +79,7 @@ PID=${!}
 # --ginkgo.focus "\[X-Chain\] \[WhitelistVtx\]"
 #
 # to run only X-Chain transfer tests:
-# --ginkgo.focus "\[X-Chain\] \[Virtuous Transfer Tx AVAX\]"
+# --ginkgo.focus "\[X-Chain\] \[Virtuous Transfer Tx QMALL\]"
 #
 # to skip all "Local" tests
 # --ginkgo.skip "\[Local\]"

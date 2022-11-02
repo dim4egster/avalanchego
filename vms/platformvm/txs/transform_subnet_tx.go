@@ -19,7 +19,7 @@ var (
 
 	errCantTransformPrimaryNetwork       = errors.New("cannot transform primary network")
 	errEmptyAssetID                      = errors.New("empty asset ID is not valid")
-	errAssetIDCantBeAVAX                 = errors.New("asset ID can't be AVAX")
+	errAssetIDCantBeAVAX                 = errors.New("asset ID can't be QMALL")
 	errInitialSupplyZero                 = errors.New("initial supply must be non-0")
 	errInitialSupplyGreaterThanMaxSupply = errors.New("initial supply can't be greater than maximum supply")
 	errMinConsumptionRateTooLarge        = errors.New("min consumption rate must be less than or equal to max consumption rate")
@@ -47,7 +47,7 @@ type TransformSubnetTx struct {
 	// Asset to use when staking on the Subnet
 	// Restrictions:
 	// - Must not be the Empty ID
-	// - Must not be the AVAX ID
+	// - Must not be the QMALL ID
 	AssetID ids.ID `serialize:"true" json:"assetID"`
 	// Amount to initially specify as the current supply
 	// Restrictions:

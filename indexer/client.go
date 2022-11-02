@@ -15,7 +15,7 @@ import (
 
 var _ Client = &client{}
 
-// Client interface for Avalanche Indexer API Endpoint
+// Client interface for Qmall Indexer API Endpoint
 type Client interface {
 	// GetContainerRange returns the transactions at index [startIndex], [startIndex+1], ... , [startIndex+n-1]
 	// If [n] == 0, returns an empty response (i.e. null).
@@ -34,7 +34,7 @@ type Client interface {
 	GetContainerByID(ctx context.Context, containerID ids.ID, options ...rpc.Option) (Container, error)
 }
 
-// Client implementation for Avalanche Indexer API Endpoint
+// Client implementation for Qmall Indexer API Endpoint
 type client struct {
 	requester rpc.EndpointRequester
 }

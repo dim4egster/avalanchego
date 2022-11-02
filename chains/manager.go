@@ -520,7 +520,7 @@ func (m *manager) unblockChains() {
 	}
 }
 
-// Create a DAG-based blockchain that uses Avalanche
+// Create a DAG-based blockchain that uses Qmall
 func (m *manager) createAvalancheChain(
 	ctx *snow.ConsensusContext,
 	genesisData []byte,

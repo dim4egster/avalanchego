@@ -176,10 +176,10 @@ type GetBalanceRequest struct {
 	Addresses []string `json:"addresses"`
 }
 
-// Note: We explicitly duplicate AVAX out of the maps to ensure backwards
+// Note: We explicitly duplicate QMALL out of the maps to ensure backwards
 // compatibility.
 type GetBalanceResponse struct {
-	// Balance, in nAVAX, of the address
+	// Balance, in nQMALL, of the address
 	Balance             json.Uint64            `json:"balance"`
 	Unlocked            json.Uint64            `json:"unlocked"`
 	LockedStakeable     json.Uint64            `json:"lockedStakeable"`
@@ -955,7 +955,7 @@ type GetCurrentSupplyReply struct {
 	Supply json.Uint64 `json:"supply"`
 }
 
-// GetCurrentSupply returns an upper bound on the supply of AVAX in the system
+// GetCurrentSupply returns an upper bound on the supply of QMALL in the system
 func (service *Service) GetCurrentSupply(_ *http.Request, args *GetCurrentSupplyArgs, reply *GetCurrentSupplyReply) error {
 	service.vm.ctx.Log.Debug("Platform: GetCurrentSupply called")
 
@@ -1394,18 +1394,18 @@ type ExportAVAXArgs struct {
 	// User, password, from addrs, change addr
 	api.JSONSpendHeader
 
-	// Amount of AVAX to send
+	// Amount of QMALL to send
 	Amount json.Uint64 `json:"amount"`
 
 	// Chain the funds are going to. Optional. Used if To address does not include the chainID.
 	TargetChain string `json:"targetChain"`
 
-	// ID of the address that will receive the AVAX. This address may include the
+	// ID of the address that will receive the QMALL. This address may include the
 	// chainID, which is used to determine what the destination chain is.
 	To string `json:"to"`
 }
 
-// ExportAVAX exports AVAX from the P-Chain to the X-Chain
+// ExportAVAX exports QMALL from the P-Chain to the X-Chain
 // It must be imported on the X-Chain to complete the transfer
 func (service *Service) ExportAVAX(_ *http.Request, args *ExportAVAXArgs, response *api.JSONTxIDChangeAddr) error {
 	service.vm.ctx.Log.Debug("Platform: ExportAVAX called")
@@ -1493,7 +1493,7 @@ type ImportAVAXArgs struct {
 	To string `json:"to"`
 }
 
-// ImportAVAX issues a transaction to import AVAX from the X-chain. The AVAX
+// ImportAVAX issues a transaction to import QMALL from the X-chain. The QMALL
 // must have already been exported from the X-Chain.
 func (service *Service) ImportAVAX(_ *http.Request, args *ImportAVAXArgs, response *api.JSONTxIDChangeAddr) error {
 	service.vm.ctx.Log.Debug("Platform: ImportAVAX called")
@@ -2136,11 +2136,11 @@ func (service *Service) getStakeHelper(tx *txs.Tx, addrs ids.ShortSet, totalAmou
 	return stakedOuts
 }
 
-// GetStake returns the amount of nAVAX that [args.Addresses] have cumulatively
+// GetStake returns the amount of nQMALL that [args.Addresses] have cumulatively
 // staked on the Primary Network.
 //
 // This method assumes that each stake output has only owner
-// This method assumes only AVAX can be staked
+// This method assumes only QMALL can be staked
 // This method only concerns itself with the Primary Network, not subnets
 // TODO: Improve the performance of this method by maintaining this data
 // in a data structure rather than re-calculating it by iterating over stakers
@@ -2221,11 +2221,11 @@ type GetMinStakeArgs struct {
 type GetMinStakeReply struct {
 	//  The minimum amount of tokens one must bond to be a validator
 	MinValidatorStake json.Uint64 `json:"minValidatorStake"`
-	// Minimum stake, in nAVAX, that can be delegated on the primary network
+	// Minimum stake, in nQMALL, that can be delegated on the primary network
 	MinDelegatorStake json.Uint64 `json:"minDelegatorStake"`
 }
 
-// GetMinStake returns the minimum staking amount in nAVAX.
+// GetMinStake returns the minimum staking amount in nQMALL.
 func (service *Service) GetMinStake(_ *http.Request, args *GetMinStakeArgs, reply *GetMinStakeReply) error {
 	if args.SubnetID == constants.PrimaryNetworkID {
 		reply.MinValidatorStake = json.Uint64(service.vm.MinValidatorStake)
@@ -2294,7 +2294,7 @@ type GetMaxStakeAmountReply struct {
 	Amount json.Uint64 `json:"amount"`
 }
 
-// GetMaxStakeAmount returns the maximum amount of nAVAX staking to the named
+// GetMaxStakeAmount returns the maximum amount of nQMALL staking to the named
 // node during the time period.
 func (service *Service) GetMaxStakeAmount(_ *http.Request, args *GetMaxStakeAmountArgs, reply *GetMaxStakeAmountReply) error {
 	startTime := time.Unix(int64(args.StartTime), 0)

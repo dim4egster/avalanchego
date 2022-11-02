@@ -16,11 +16,11 @@ graph LR
 
 ## Intro
 
-The Avalanche network consists of 3 built-in blockchains: X-Chain, C-Chain, and P-Chain. The X-Chain is used to manage assets and uses the Avalanche consensus protocol. The C-Chain is used to create and interact with smart contracts and uses the Snowman consensus protocol. The P-Chain is used to coordinate validators and stake and also uses the Snowman consensus protocol. At the time of writing, the Avalanche network has ~1200 validators. A set of validators makes up a subnet. Subnets can validate 1 or more chains. It is a common misconception that 1 subnet = 1 chain and this is shown by the primary subnet of Avalanche which is made up of the X-Chain, C-Chain, and P-Chain.
+The Qmall network consists of 3 built-in blockchains: X-Chain, C-Chain, and P-Chain. The X-Chain is used to manage assets and uses the Qmall consensus protocol. The C-Chain is used to create and interact with smart contracts and uses the Snowman consensus protocol. The P-Chain is used to coordinate validators and stake and also uses the Snowman consensus protocol. At the time of writing, the Qmall network has ~1200 validators. A set of validators makes up a subnet. Subnets can validate 1 or more chains. It is a common misconception that 1 subnet = 1 chain and this is shown by the primary subnet of Qmall which is made up of the X-Chain, C-Chain, and P-Chain.
 
-A node in the Avalanche network can either be a validator or a non-validator. A validator stakes AVAX tokens and participates in consensus to earn rewards. A non-validator does not participate in consensus or have any AVAX staked but is used as a public API. Both validators and non-validator need to have their own copy of the chain and to know the current state of the mempool. At the time of writing, there are ~1200 validators and ~1800 non-validator.
+A node in the Qmall network can either be a validator or a non-validator. A validator stakes QMALL tokens and participates in consensus to earn rewards. A non-validator does not participate in consensus or have any QMALL staked but is used as a public API. Both validators and non-validator need to have their own copy of the chain and to know the current state of the mempool. At the time of writing, there are ~1200 validators and ~1800 non-validator.
 
-Each blockchain on Avalanche has several components: the virtual machine, database, consensus engine, sender, and handler. These components help the chain run smoothly. Blockchains also interact with the P2P layer and the chain router to send and receive messages.
+Each blockchain on Qmall has several components: the virtual machine, database, consensus engine, sender, and handler. These components help the chain run smoothly. Blockchains also interact with the P2P layer and the chain router to send and receive messages.
 
 ## P2P
 
@@ -68,7 +68,7 @@ The main role of the `sender` is to build and send outbound messages. It is actu
 
 ## [Consensus Engine](https://github.com/dim4egster/qmallgo/blob/master/snow/consensus/snowman/consensus.go)
 
-Consensus is defined as getting a group of distributed systems to agree on an outcome. In the case of the Avalanche network, consensus is achieved when validators are in agreement with the state of the blockchain. The novel consensus algorithm is documented in the [white paper](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf). There are two main consensus algorithms: Avalanche and Snowman. The engine is responsible for adding proposing a new block to consensus, repeatedly polling the network for decisions (accept/reject), and communicating that decision to the `Sender`.
+Consensus is defined as getting a group of distributed systems to agree on an outcome. In the case of the Qmall network, consensus is achieved when validators are in agreement with the state of the blockchain. The novel consensus algorithm is documented in the [white paper](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf). There are two main consensus algorithms: Qmall and Snowman. The engine is responsible for adding proposing a new block to consensus, repeatedly polling the network for decisions (accept/reject), and communicating that decision to the `Sender`.
 
 ## [Blockchain Creation](https://github.com/dim4egster/qmallgo/blob/master/chains/manager.go)
 

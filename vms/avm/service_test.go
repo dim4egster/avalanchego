@@ -46,7 +46,7 @@ var testCases = []struct {
 	name      string
 	avaxAsset bool
 }{
-	{"genesis asset is AVAX", true},
+	{"genesis asset is QMALL", true},
 	{"genesis asset is TEST", false},
 }
 
@@ -151,7 +151,7 @@ func verifyTxFeeDeducted(t *testing.T, s *Service, fromAddrs []ids.ShortID, numT
 	fromAddrsStartBalance := startBalance * uint64(len(fromAddrs))
 
 	// Key: Address
-	// Value: AVAX balance
+	// Value: QMALL balance
 	balances := map[ids.ShortID]uint64{}
 
 	for _, addr := range addrs { // get balances for all addresses
@@ -2070,7 +2070,7 @@ func TestGetAssetDescription(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if reply.Name != "AVAX" {
+	if reply.Name != "QMALL" {
 		t.Fatalf("Wrong name returned from GetAssetDescription %s", reply.Name)
 	}
 	if reply.Symbol != "SYMB" {
@@ -2728,7 +2728,7 @@ func TestImport(t *testing.T) {
 			}
 			reply := &api.JSONTxID{}
 			if err := s.Import(nil, args, reply); err != nil {
-				t.Fatalf("Failed to import AVAX due to %s", err)
+				t.Fatalf("Failed to import QMALL due to %s", err)
 			}
 		})
 	}

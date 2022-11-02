@@ -13,7 +13,7 @@ import (
 
 var _ Client = &client{}
 
-// Client interface for Avalanche Keystore API Endpoint
+// Client interface for Qmall Keystore API Endpoint
 type Client interface {
 	CreateUser(context.Context, api.UserPass, ...rpc.Option) error
 	// Returns the usernames of all keystore users
@@ -26,7 +26,7 @@ type Client interface {
 	DeleteUser(context.Context, api.UserPass, ...rpc.Option) error
 }
 
-// Client implementation for Avalanche Keystore API Endpoint
+// Client implementation for Qmall Keystore API Endpoint
 type client struct {
 	requester rpc.EndpointRequester
 }

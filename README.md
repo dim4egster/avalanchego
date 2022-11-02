@@ -4,12 +4,12 @@
 
 ---
 
-Node implementation for the [Avalanche](https://avax.network) network -
+Node implementation for the [Qmall](https://avax.network) network -
 a blockchains platform with high throughput, and blazing fast transactions.
 
 ## Installation
 
-Avalanche is an incredibly lightweight protocol, so the minimum computer requirements are quite modest.
+Qmall is an incredibly lightweight protocol, so the minimum computer requirements are quite modest.
 Note that as network usage increases, hardware requirements may change.
 
 The minimum recommended hardware specification for nodes connected to Mainnet is:
@@ -37,15 +37,15 @@ cd qmallgo
 
 This will clone and checkout to `master` branch.
 
-#### Building the Avalanche Executable
+#### Building the Qmall Executable
 
-Build Avalanche by running the build script:
+Build Qmall by running the build script:
 
 ```sh
 ./scripts/build.sh
 ```
 
-The output of the script will be the Avalanche binary named `qmallgo`. It is located in the build directory:
+The output of the script will be the Qmall binary named `qmallgo`. It is located in the build directory:
 
 ```sh
 ./build/qmallgo
@@ -90,7 +90,7 @@ sudo apt install qmallgo
 
 Download the [latest build](https://github.com/dim4egster/qmallgo/releases/latest) for your operating system and architecture.
 
-The Avalanche binary to be executed is named `qmallgo`.
+The Qmall binary to be executed is named `qmallgo`.
 
 ### Docker Install
 
@@ -108,17 +108,17 @@ To check the built image, run:
 docker image ls
 ```
 
-The image should be tagged as `avaplatform/qmallgo:xxxxxxxx`, where `xxxxxxxx` is the shortened commit of the Avalanche source it was built from. To run the avalanche node, run:
+The image should be tagged as `avaplatform/qmallgo:xxxxxxxx`, where `xxxxxxxx` is the shortened commit of the Qmall source it was built from. To run the avalanche node, run:
 
 ```sh
 docker run -ti -p 4960:4960 -p 4961:4961 avaplatform/qmallgo:xxxxxxxx /qmallgo/build/qmallgo
 ```
 
-## Running Avalanche
+## Running Qmall
 
 ### Connecting to Mainnet
 
-To connect to the Avalanche Mainnet, run:
+To connect to the Qmall Mainnet, run:
 
 ```sh
 ./build/qmallgo

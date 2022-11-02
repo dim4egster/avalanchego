@@ -9,7 +9,7 @@ if [[ -z "$DOCKER_USERNAME"  ]]; then
   exit 0;
 fi
 
-# Avalanche root directory
+# Qmall root directory
 AVALANCHE_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )"; cd ../.. && pwd )
 
 # Load the versions

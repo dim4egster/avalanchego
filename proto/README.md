@@ -1,4 +1,4 @@
-# Avalanche gRPC
+# QmallC
 
 Now Serving: **Protocol Version 16**
 
@@ -15,4 +15,4 @@ Introduction to `buf` [https://docs.buf.build/tour/introduction](https://docs.bu
 ## Protocol Version Compatibility
 
 The protobuf definitions and generated code are versioned based on the [protocolVersion](../vms/rpcchainvm/vm.go#L21) defined by the rpcchainvm.
-Many versions of an Avalanche client can use the same [protocolVersion](../vms/rpcchainvm/vm.go#L21). But each Avalanche client and subnet vm must use the same protocol version to be compatible.
+Many versions of an Qmall client can use the same [protocolVersion](../vms/rpcchainvm/vm.go#L21). But each Qmall client and subnet vm must use the same protocol version to be compatible.

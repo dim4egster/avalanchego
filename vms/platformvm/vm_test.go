@@ -81,7 +81,7 @@ var (
 		SupplyCap:          720 * units.MegaAvax,
 	}
 
-	// AVAX asset ID in tests
+	// QMALL asset ID in tests
 	avaxAssetID = ids.ID{'y', 'e', 'e', 't'}
 
 	defaultTxFee = uint64(100)
@@ -95,7 +95,7 @@ var (
 	// time that genesis validators stop validating
 	defaultValidateEndTime = defaultValidateStartTime.Add(10 * defaultMinStakingDuration)
 
-	// each key controls an address that has [defaultBalance] AVAX at genesis
+	// each key controls an address that has [defaultBalance] QMALL at genesis
 	keys = crypto.BuildTestKeys()
 
 	defaultMinValidatorStake = 5 * units.MilliAvax

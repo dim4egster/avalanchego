@@ -8,7 +8,7 @@ import (
 	"github.com/dim4egster/qmallgo/utils/constants"
 )
 
-// SubnetValidator validates a subnet on the Avalanche network.
+// SubnetValidator validates a subnet on the Qmall network.
 type SubnetValidator struct {
 	Validator `serialize:"true"`
 

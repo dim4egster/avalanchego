@@ -128,7 +128,7 @@ type Config struct {
 	WhitelistedSubnets ids.Set        `json:"whitelistedSubnets"`
 	Beacons            validators.Set `json:"beacons"`
 
-	// Validators are the current validators in the Avalanche network
+	// Validators are the current validators in the Qmall network
 	Validators validators.Manager `json:"validators"`
 
 	UptimeCalculator uptime.Calculator `json:"-"`

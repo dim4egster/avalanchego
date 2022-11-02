@@ -161,7 +161,7 @@ func GetCreateTxFromGenesisTest(tb testing.TB, genesisBytes []byte, assetName st
 }
 
 func GetAVAXTxFromGenesisTest(genesisBytes []byte, tb testing.TB) *txs.Tx {
-	return GetCreateTxFromGenesisTest(tb, genesisBytes, "AVAX")
+	return GetCreateTxFromGenesisTest(tb, genesisBytes, "QMALL")
 }
 
 // BuildGenesisTest is the common Genesis builder for most tests
@@ -174,7 +174,7 @@ func BuildGenesisTest(tb testing.TB) []byte {
 		Encoding: formatting.Hex,
 		GenesisData: map[string]AssetDefinition{
 			"asset1": {
-				Name:   "AVAX",
+				Name:   "QMALL",
 				Symbol: "SYMB",
 				InitialState: map[string][]interface{}{
 					"fixedCap": {
@@ -350,7 +350,7 @@ func GenesisVMWithArgs(tb testing.TB, additionalFxs []*common.Fx, args *BuildGen
 }
 
 func NewTx(t *testing.T, genesisBytes []byte, vm *VM) *txs.Tx {
-	return NewTxWithAsset(t, genesisBytes, vm, "AVAX")
+	return NewTxWithAsset(t, genesisBytes, vm, "QMALL")
 }
 
 func NewTxWithAsset(t *testing.T, genesisBytes []byte, vm *VM, assetName string) *txs.Tx {

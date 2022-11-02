@@ -297,7 +297,7 @@ func (b *builder) NewImportTx(
 	return tx, tx.SyntacticVerify(b.ctx)
 }
 
-// TODO: should support other assets than AVAX
+// TODO: should support other assets than QMALL
 func (b *builder) NewExportTx(
 	amount uint64,
 	chainID ids.ID,

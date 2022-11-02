@@ -93,7 +93,7 @@ func TestTransformSubnetTxSyntacticVerify(t *testing.T) {
 			err: errEmptyAssetID,
 		},
 		{
-			name: "AVAX assetID",
+			name: "QMALL assetID",
 			txFunc: func(*gomock.Controller) *TransformSubnetTx {
 				return &TransformSubnetTx{
 					BaseTx:  validBaseTx,

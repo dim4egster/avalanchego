@@ -19,7 +19,7 @@ if [[ -z ${DOCKER_USERNAME} ]]; then
     exit 1
 fi
 
-# Avalanche root directory
+# Qmall root directory
 AVALANCHE_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )"; cd ../.. && pwd )
 
 # Load the versions
@@ -52,10 +52,10 @@ avalanche_image="$avalanchego_dockerhub_repo:$current_branch"
 
 echo "Execution Summary:"
 echo ""
-echo "Running Avalanche Image: ${avalanche_image}"
-echo "Running Avalanche Image Tag: $current_branch"
-echo "Running Avalanche Testing Image: ${avalanche_testing_image}"
-echo "Running Avalanche Byzantine Image: ${avalanchego_byzantine_image}"
+echo "Running Qmall Image: ${avalanche_image}"
+echo "Running Qmall Image Tag: $current_branch"
+echo "Running Qmall Testing Image: ${avalanche_testing_image}"
+echo "Running Qmall Byzantine Image: ${avalanchego_byzantine_image}"
 echo "Git Commit ID : ${git_commit_id}"
 echo ""
 

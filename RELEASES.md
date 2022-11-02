@@ -296,7 +296,7 @@ This version is backwards compatible to [v1.7.0](https://github.com/dim4egster/q
 
 ### Fixes
 
-- Updated Snowman and Avalanche consensus engines to report original container preferences before processing the provided container
+- Updated Snowman and Qmall consensus engines to report original container preferences before processing the provided container
 - Fixed inbound message byte throttler context cancellation cleanup
 - Removed case sensitivity of IP resolver services
 - Added failing health check when a whitelisted subnet fails to initialize a chain
@@ -650,7 +650,7 @@ This version is backwards compatible to [v1.7.0](https://github.com/dim4egster/q
 
 ### Miscellaneous
 
-- Fixed error reporting when making Avalanche chains that did not manually specify a primary alias.
+- Fixed error reporting when making Qmall chains that did not manually specify a primary alias.
 - Added beacon utils for easier programmatic handling of beacon nodes.
 - Resolved the default log directory on initialization to avoid additional error handling.
 - Added support to the chain state module to specify an arbitrary new accepted block.
@@ -661,7 +661,7 @@ This version is backwards compatible to [v1.7.0](https://github.com/dim4egster/q
 
 ### Consensus
 
-- Introduced a new vertex type to support future `Avalanche` based network upgrades.
+- Introduced a new vertex type to support future `Qmall` based network upgrades.
 - Added pending message metrics to the chain message queues.
 - Refactored event dispatchers to simplify dependencies and remove dead code.
 
@@ -759,7 +759,7 @@ This version is backwards compatible to [v1.7.0](https://github.com/dim4egster/q
 
 - Added `--stake-max-consumption-rate` which defaults to `120,000`.
 - Added `--stake-min-consumption-rate` which defaults to `100,000`.
-- Added `--stake-supply-cap` which defaults to `720,000,000,000,000,000` nAVAX.
+- Added `--stake-supply-cap` which defaults to `720,000,000,000,000,000` nQMALL.
 - Renamed `--bootstrap-multiput-max-containers-sent` to `--bootstrap-ancestors-max-containers-sent`.
 - Renamed `--bootstrap-multiput-max-containers-received` to `--bootstrap-ancestors-max-containers-received`.
 - Enforced that `--staking-enabled=false` can not be specified on public networks (`Fuji` and `Mainnet`).
@@ -865,12 +865,12 @@ The changes in the upgrade go into effect at 1 PM EST, December 2nd 2021 on Main
 ### PlatformVM
 
 - Enabled `AtomicTx`s to be issued into `StandardBlock`s and deprecated `AtomicBlock`s.
-- Added the ability to export/import AVAX to/from the C-chain.
+- Added the ability to export/import QMALL to/from the C-chain.
 
 ### Coreth
 
 - Enabled multiple `AtomicTx`s to be issued per block.
-- Added the ability to export/import AVAX to/from the P-chain.
+- Added the ability to export/import QMALL to/from the P-chain.
 - Updated dynamic fee calculations.
 
 ### ProposerVM

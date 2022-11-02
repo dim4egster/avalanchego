@@ -103,7 +103,7 @@
     dest: /etc/qmallgo/C/config.json
     mode: 0644
 
-- name: Enable Avalanche
+- name: Enable Qmall
   systemd:
     name: qmallgo
     enabled: yes

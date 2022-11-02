@@ -474,7 +474,7 @@ func TestAVAXAssetID(t *testing.T) {
 			require.Equal(
 				test.expectedID,
 				avaxAssetID.String(),
-				"AVAX assetID with networkID %d mismatch",
+				"QMALL assetID with networkID %d mismatch",
 				test.networkID,
 			)
 		})

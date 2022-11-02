@@ -15,7 +15,7 @@ import (
 
 var _ Client = &client{}
 
-// Client interface for the Avalanche Platform Info API Endpoint
+// Client interface for the Qmall Platform Info API Endpoint
 type Client interface {
 	StartCPUProfiler(context.Context, ...rpc.Option) error
 	StopCPUProfiler(context.Context, ...rpc.Option) error
@@ -31,7 +31,7 @@ type Client interface {
 	GetConfig(ctx context.Context, options ...rpc.Option) (interface{}, error)
 }
 
-// Client implementation for the Avalanche Platform Info API Endpoint
+// Client implementation for the Qmall Platform Info API Endpoint
 type client struct {
 	requester rpc.EndpointRequester
 }

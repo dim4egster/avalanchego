@@ -64,7 +64,7 @@ type Spender interface {
 	// Arguments:
 	// - [keys] are the owners of the funds
 	// - [amount] is the amount of funds that are trying to be staked
-	// - [fee] is the amount of AVAX that should be burned
+	// - [fee] is the amount of QMALL that should be burned
 	// - [changeAddr] is the address that change, if there is any, is sent to
 	// Returns:
 	// - [inputs] the inputs that should be consumed to fund the outputs
@@ -197,19 +197,19 @@ func (h *handler) Spend(
 	stakedOuts := []*avax.TransferableOutput{}
 	signers := [][]*crypto.PrivateKeySECP256K1R{}
 
-	// Amount of AVAX that has been staked
+	// Amount of QMALL that has been staked
 	amountStaked := uint64(0)
 
 	// Consume locked UTXOs
 	for _, utxo := range utxos {
-		// If we have consumed more AVAX than we are trying to stake, then we
-		// have no need to consume more locked AVAX
+		// If we have consumed more QMALL than we are trying to stake, then we
+		// have no need to consume more locked QMALL
 		if amountStaked >= amount {
 			break
 		}
 
 		if assetID := utxo.AssetID(); assetID != h.ctx.AVAXAssetID {
-			continue // We only care about staking AVAX, so ignore other assets
+			continue // We only care about staking QMALL, so ignore other assets
 		}
 
 		out, ok := utxo.Out.(*stakeable.LockOut)
@@ -296,19 +296,19 @@ func (h *handler) Spend(
 		signers = append(signers, inSigners)
 	}
 
-	// Amount of AVAX that has been burned
+	// Amount of QMALL that has been burned
 	amountBurned := uint64(0)
 
 	for _, utxo := range utxos {
-		// If we have consumed more AVAX than we are trying to stake, and we
-		// have burned more AVAX then we need to, then we have no need to
-		// consume more AVAX
+		// If we have consumed more QMALL than we are trying to stake, and we
+		// have burned more QMALL then we need to, then we have no need to
+		// consume more QMALL
 		if amountBurned >= fee && amountStaked >= amount {
 			break
 		}
 
 		if assetID := utxo.AssetID(); assetID != h.ctx.AVAXAssetID {
-			continue // We only care about burning AVAX, so ignore other assets
+			continue // We only care about burning QMALL, so ignore other assets
 		}
 
 		out := utxo.Out
