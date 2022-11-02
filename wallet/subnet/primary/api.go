@@ -22,7 +22,7 @@ import (
 const (
 	MainnetAPIURI = "https://api.avax.network"
 	FujiAPIURI    = "https://api.avax-test.network"
-	LocalAPIURI   = "http://localhost:9650"
+	LocalAPIURI   = "http://localhost:4960"
 
 	fetchLimit = 1024
 )

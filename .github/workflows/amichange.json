@@ -14,13 +14,13 @@
             "OperatingSystemName": "UBUNTU",
             "OperatingSystemVersion": "Ubuntu 20.04"
           },
-          "UsageInstructions": "Connect via SSH and you can make local calls to port 9650",
+          "UsageInstructions": "Connect via SSH and you can make local calls to port 4960",
           "RecommendedInstanceType": "c5.2xlarge",
           "SecurityGroups": [
             {
               "IpProtocol": "tcp",
-              "FromPort": 9651,
-              "ToPort": 9651,
+              "FromPort": 4961,
+              "ToPort": 4961,
               "IpRanges": [
                 "0.0.0.0/0"
               ]

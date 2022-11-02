@@ -111,7 +111,7 @@ docker image ls
 The image should be tagged as `avaplatform/qmallgo:xxxxxxxx`, where `xxxxxxxx` is the shortened commit of the Avalanche source it was built from. To run the avalanche node, run:
 
 ```sh
-docker run -ti -p 9650:9650 -p 9651:9651 avaplatform/qmallgo:xxxxxxxx /qmallgo/build/qmallgo
+docker run -ti -p 4960:4960 -p 4961:4961 avaplatform/qmallgo:xxxxxxxx /qmallgo/build/qmallgo
 ```
 
 ## Running Avalanche

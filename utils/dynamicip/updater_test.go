@@ -28,7 +28,7 @@ func (r *mockResolver) Resolve() (net.IP, error) {
 func TestNewUpdater(t *testing.T) {
 	require := require.New(t)
 	originalIP := net.IPv4zero
-	originalPort := 9651
+	originalPort := 4961
 	dynamicIP := ips.NewDynamicIPPort(originalIP, uint16(originalPort))
 	newIP := net.IPv4(1, 2, 3, 4)
 	resolver := &mockResolver{

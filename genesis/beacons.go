@@ -13,20 +13,20 @@ func getIPs(networkID uint32) []string {
 	switch networkID {
 	case constants.MainnetID:
 		return []string{
-						"127.0.0.1:9671",
-						"127.0.0.1:9673",
-						"127.0.0.1:9675",
-						"127.0.0.1:9677",
-						"127.0.0.1:9679",
-						/*"127.0.0.1:9681",
-						"127.0.0.1:9683",
-						"127.0.0.1:9685",
-						"127.0.0.1:9687",
-						"127.0.0.1:9689",*/
+			"127.0.0.1:9671",
+			"127.0.0.1:9673",
+			"127.0.0.1:9675",
+			"127.0.0.1:9677",
+			"127.0.0.1:9679",
+			/*"127.0.0.1:9681",
+			"127.0.0.1:9683",
+			"127.0.0.1:9685",
+			"127.0.0.1:9687",
+			"127.0.0.1:9689",*/
 		}
 	case constants.FujiID:
 		return []string{
-			"127.0.0.1:9651",
+			"127.0.0.1:4961",
 			"127.0.0.1:9653",
 			"127.0.0.1:9655",
 			"127.0.0.1:9657",
@@ -46,7 +46,7 @@ func getIPs(networkID uint32) []string {
 func getNodeIDs(networkID uint32) []string {
 	switch networkID {
 	case constants.MainnetID:
-		return []string {
+		return []string{
 			"NodeID-2YXYFUDkEf8posCKwKfdVjT7y571fNLQs",
 			"NodeID-CwpnhaPUX3T1PDqm45kdrep6hmv4kS9LH",
 			"NodeID-QKuMoE1VJJYRrdprWSgM9iAu6jjUcfcET",

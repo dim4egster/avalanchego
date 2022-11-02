@@ -22,7 +22,7 @@ func ExampleStartTestPeer() {
 
 	peerIP := ips.IPPort{
 		IP:   net.IPv6loopback,
-		Port: 9651,
+		Port: 4961,
 	}
 	peer, err := StartTestPeer(
 		ctx,

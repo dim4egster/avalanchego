@@ -660,7 +660,7 @@ func TestNewOutboundInboundMessageWithProto(t *testing.T) {
 							{
 								X509Certificate: testTLSCert.Certificate[0],
 								IpAddr:          []byte(net.IPv6zero),
-								IpPort:          9651,
+								IpPort:          4961,
 								Timestamp:       uint64(nowUnix),
 								Signature:       compressibleContainers[0],
 							},
@@ -676,7 +676,7 @@ func TestNewOutboundInboundMessageWithProto(t *testing.T) {
 				Peers: []ips.ClaimedIPPort{
 					{
 						Cert:      testTLSCert.Leaf,
-						IPPort:    ips.IPPort{IP: net.IPv6zero, Port: uint16(9651)},
+						IPPort:    ips.IPPort{IP: net.IPv6zero, Port: uint16(4961)},
 						Timestamp: uint64(nowUnix),
 						Signature: compressibleContainers[0],
 					},
@@ -694,7 +694,7 @@ func TestNewOutboundInboundMessageWithProto(t *testing.T) {
 							{
 								X509Certificate: testTLSCert.Certificate[0][10:],
 								IpAddr:          []byte(net.IPv6zero),
-								IpPort:          9651,
+								IpPort:          4961,
 								Timestamp:       uint64(nowUnix),
 								Signature:       compressibleContainers[0],
 							},
@@ -721,7 +721,7 @@ func TestNewOutboundInboundMessageWithProto(t *testing.T) {
 							{
 								X509Certificate: testTLSCert.Certificate[0],
 								IpAddr:          []byte(net.IPv6zero[:5]),
-								IpPort:          9651,
+								IpPort:          4961,
 								Timestamp:       uint64(nowUnix),
 								Signature:       compressibleContainers[0],
 							},
@@ -747,7 +747,7 @@ func TestNewOutboundInboundMessageWithProto(t *testing.T) {
 						NetworkId:      uint32(1337),
 						MyTime:         uint64(nowUnix),
 						IpAddr:         []byte(net.IPv6zero),
-						IpPort:         9651,
+						IpPort:         4961,
 						MyVersion:      "v1.2.3",
 						MyVersionTime:  uint64(nowUnix),
 						Sig:            []byte{'y', 'e', 'e', 't'},
@@ -761,7 +761,7 @@ func TestNewOutboundInboundMessageWithProto(t *testing.T) {
 			fields: map[Field]interface{}{
 				NetworkID:      uint32(1337),
 				MyTime:         uint64(nowUnix),
-				IP:             ips.IPPort{IP: net.IPv6zero, Port: uint16(9651)},
+				IP:             ips.IPPort{IP: net.IPv6zero, Port: uint16(4961)},
 				VersionStr:     "v1.2.3",
 				VersionTime:    uint64(nowUnix),
 				SigBytes:       []byte{'y', 'e', 'e', 't'},
@@ -778,7 +778,7 @@ func TestNewOutboundInboundMessageWithProto(t *testing.T) {
 						NetworkId:      uint32(1337),
 						MyTime:         uint64(nowUnix),
 						IpAddr:         []byte(net.IPv6zero[1:]),
-						IpPort:         9651,
+						IpPort:         4961,
 						MyVersion:      "v1.2.3",
 						MyVersionTime:  uint64(nowUnix),
 						Sig:            []byte{'y', 'e', 'e', 't'},

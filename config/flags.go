@@ -25,8 +25,8 @@ import (
 )
 
 const (
-	DefaultHTTPPort    = 9650
-	DefaultStakingPort = 9651
+	DefaultHTTPPort    = 4960
+	DefaultStakingPort = 4961
 
 	AvalancheGoDataDirVar    = "AVALANCHEGO_DATA_DIR"
 	defaultUnexpandedDataDir = "$" + AvalancheGoDataDirVar
