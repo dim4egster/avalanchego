@@ -299,8 +299,8 @@ func addNodeFlags(fs *flag.FlagSet) {
 	fs.Uint(BootstrapAncestorsMaxContainersReceivedKey, 2000, "This node reads at most this many containers from an incoming Ancestors message")
 
 	// Consensus
-	fs.Int(SnowSampleSizeKey, 2, "Number of nodes to query for each network poll")
-	fs.Int(SnowQuorumSizeKey, 2, "Alpha value to use for required number positive results")
+	fs.Int(SnowSampleSizeKey, 20, "Number of nodes to query for each network poll")
+	fs.Int(SnowQuorumSizeKey, 15, "Alpha value to use for required number positive results")
 	fs.Int(SnowVirtuousCommitThresholdKey, 15, "Beta value to use for virtuous transactions")
 	fs.Int(SnowRogueCommitThresholdKey, 20, "Beta value to use for rogue transactions")
 	fs.Int(SnowAvalancheNumParentsKey, 5, "Number of vertexes for reference from each new vertex")
@@ -309,7 +309,7 @@ func addNodeFlags(fs *flag.FlagSet) {
 	fs.Int(SnowOptimalProcessingKey, 50, "Optimal number of processing containers in consensus")
 	fs.Int(SnowMaxProcessingKey, 1024, "Maximum number of processing items to be considered healthy")
 	fs.Duration(SnowMaxTimeProcessingKey, 2*time.Minute, "Maximum amount of time an item should be processing and still be healthy")
-	fs.Uint(SnowMixedQueryNumPushVdrKey, 2, fmt.Sprintf("If this node is a validator, when a container is inserted into consensus, send a Push Query to %s validators and a Pull Query to the others. Must be <= k.", SnowMixedQueryNumPushVdrKey))
+	fs.Uint(SnowMixedQueryNumPushVdrKey, 10, fmt.Sprintf("If this node is a validator, when a container is inserted into consensus, send a Push Query to %s validators and a Pull Query to the others. Must be <= k.", SnowMixedQueryNumPushVdrKey))
 	fs.Uint(SnowMixedQueryNumPushNonVdrKey, 0, fmt.Sprintf("If this node is not a validator, when a container is inserted into consensus, send a Push Query to %s validators and a Pull Query to the others. Must be <= k.", SnowMixedQueryNumPushNonVdrKey))
 
 	// Metrics
