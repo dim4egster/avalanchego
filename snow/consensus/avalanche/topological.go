@@ -468,7 +468,9 @@ func (ta *Topological) pushVotes() (ids.Bag, error) {
 // I now update all my ancestors
 // If any of my parents are rejected, reject myself
 // If I'm preferred, remove all my ancestors from the preferred frontier, add
-//     myself to the preferred frontier
+//
+//	myself to the preferred frontier
+//
 // If all my parents are accepted and I'm acceptable, accept myself
 func (ta *Topological) update(vtx Vertex) error {
 	vtxID := vtx.ID()

@@ -28,7 +28,8 @@ const (
 )
 
 // TODO: refactor UTXOClient definition to allow the client implementations to
-//       perform their own assertions.
+//
+//	perform their own assertions.
 var (
 	_ UTXOClient = platformvm.Client(nil)
 	_ UTXOClient = avm.Client(nil)

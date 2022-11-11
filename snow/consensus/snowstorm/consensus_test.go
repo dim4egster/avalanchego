@@ -58,7 +58,7 @@ var (
 	Red, Green, Blue, Alpha *TestTx
 )
 
-//  R - G - B - A
+// R - G - B - A
 func Setup() {
 	Red = &TestTx{}
 	Green = &TestTx{}

@@ -58,7 +58,8 @@ func Produce(
 }
 
 // TODO: Stake and Authorize should be replaced by similar methods in the
-//       P-chain wallet
+//
+//	P-chain wallet
 type Spender interface {
 	// Spend the provided amount while deducting the provided fee.
 	// Arguments:
