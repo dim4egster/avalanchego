@@ -29,7 +29,7 @@ version_lt() {
 }
 
 if version_lt "$(go_version)" "$go_version_minimum"; then
-    echo "AvalancheGo requires Go >= $go_version_minimum, Go $(go_version) found." >&2
+    echo "QmallGo requires Go >= $go_version_minimum, Go $(go_version) found." >&2
     exit 1
 fi
 
@@ -40,5 +40,5 @@ source "$AVALANCHE_PATH"/scripts/versions.sh
 # Load the constants
 source "$AVALANCHE_PATH"/scripts/constants.sh
 
-echo "Building AvalancheGo..."
+echo "Building QmallGo..."
 go build -gcflags=all="-N -l" -ldflags "-X github.com/dim4egster/qmallgo/version.GitCommit=$git_commit $static_ld_flags" -o "$avalanchego_path" "$AVALANCHE_PATH/main/"*.go
